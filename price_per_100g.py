@@ -41,7 +41,13 @@ def price_per_100g(text: str) -> float:
     return round((price / grams) * 100, 2)
 
 # нові колонки у dataframe
-df["grams"] = df["est._price"].apply(lambda x: unit_to_grams(extract_quantity(x), x))
 df["price_per_100g"] = df["est._price"].apply(price_per_100g)
 
 print(df.head())
+
+# зберегти новий файл з колонкою
+cols = list(df.columns)
+cols.remove("price_per_100g")
+cols.insert(8, "price_per_100g")
+df = df[cols]
+df.to_csv("top-rated-coffee-pp100g.csv", index=False)
