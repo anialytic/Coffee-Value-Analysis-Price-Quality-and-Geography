@@ -1,8 +1,8 @@
 import pandas as pd
 
 # шлях до файлу
-input_file = "top-rated-coffee-clean.csv"
-output_file = "top-rated-coffee-clean_fixed.csv"
+input_file = input('Please enter csv-file:')
+output_file = "encoded.csv"
 
 # відкрити файл з utf-8, якщо не вийде — latin1
 try:
