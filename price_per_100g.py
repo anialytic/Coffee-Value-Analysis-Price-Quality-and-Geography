@@ -50,4 +50,4 @@ cols = list(df.columns)
 cols.remove("price_per_100g")
 cols.insert(8, "price_per_100g")
 df = df[cols]
-df.to_csv("top-rated-coffee-pp100g.csv", index=False)
+df.to_csv("top-rated-coffee-pp100g.csv", index=False, decimal=",")
