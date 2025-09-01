@@ -1,7 +1,7 @@
 # відкрити файл
 import pandas as pd
 import re as re
-df = pd.read_csv("top-rated-coffee-fixed.csv")
+df = pd.read_csv("top-rated-coffee-fixed.csv", sep=";", on_bad_lines="skip")
 
 column_to_show = ["est._price"]
 
