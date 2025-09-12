@@ -41,3 +41,7 @@ sd(coffee$price_per_100g, na.rm = TRUE)     # [1] NA(до , na.rm = TRUE), пі�
 # швидкий опис
 summary(coffee$price_per_100g)   
 
+# вивести топ-10 найдорожчих видів кави
+coffee %>%
+    slice_max(n=10, price_per_100g) %>%
+    arrange(desc(price_per_100g))
