@@ -45,3 +45,5 @@ summary(coffee$price_per_100g)
 coffee %>%
     slice_max(n=10, price_per_100g) %>%
     arrange(desc(price_per_100g))
+
+# гіпотеза: найдорожчі види кави пов'язані з регіонами: Гватемала та Ефіопія
