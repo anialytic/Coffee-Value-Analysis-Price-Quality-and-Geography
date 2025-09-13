@@ -1,6 +1,8 @@
 # відкрити файл
 import pandas as pd
-df = pd.read_csv("top-rated-coffee-pp100g(enc).csv", sep=",", on_bad_lines="skip")
+df = pd.read_csv("top-rated-coffee-pp100g(enc).csv", sep=";", on_bad_lines="skip")
+
+#print(df.columns.tolist())
 
 column_to_show = ["roaster_location"]
 
@@ -263,16 +265,40 @@ normalize = [
 	"Maui, Hawaii"
 ]
 
+# умовне виконання 
+def clean_name(name):
+    name = name.lower()
+    if "County" in name:
+        name = name.replace("County", "")
+    if "City" in name:
+        name = name.replace("City", "")
+    if "District" in name:
+        name = name.replace("District", "")
+    if "." in name:
+        name = name.replace(".", "")
+    if "rowing region" in name:
+        name = name.replace("growing region", "")    
+    if "Hawai’i Island," in name:
+        name = name.replace("Hawai’i Island,", " ")    
+    return name.strip()
+    
+#
+df["clean_location"] = df["roaster_location"].apply(clean_name)
+
+# зберегти результат у новий файл
+df.to_csv("location_clean.csv", index=False)
+print("Файл збережено як location_clean.csv")
+ 
 # парсинг локацій
 # TODO: не всі останні записи - країни, деякі штати
-def parse_location(s):
-    parts = [p.strip() for p in s.split(',')]
-    if len(parts) == 1:
-        return [parts[0], '']         #  місто
-    else:
-        city = parts[0]
-        country = parts[-1]           # остання частина як країна
-        return [city, country]
+#def parse_location(s):
+#   parts = [p.strip() for p in s.split(',')]
+#    if len(parts) == 1:
+#        return [parts[0], '']         #  місто
+#    else:
+#        city = parts[0]
+#        country = parts[-1]           # остання частина як країна
+#        return [city, country]
 
-parsed = [parse_location(x) for x in data]
+#parsed = [parse_location(x) for x in data]
 
