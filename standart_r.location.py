@@ -271,8 +271,20 @@ normalize = {
 cleaned_location_list = [normalize.get(name, name) for name in location_list]
 
 # перевірка результату
-print(cleaned_location_list[:20])
+# print(cleaned_location_list[:20])
 
+# очищення
+def clean_name(x):
+    return normalize.get(x, x)
+
+# нова колонка
+df["clean_location"] = df["roaster_location"].apply(clean_name)
+
+# зберегти у новий файл
+output_file = "cleaned_" + file
+df.to_csv(output_file, sep=";", index=False)
+
+print(f"Новий файл збережено як: {output_file}")
 
 # умовне виконання 
 #def clean_name(name):
@@ -291,10 +303,10 @@ print(cleaned_location_list[:20])
 #        name = name.replace("hawai’island,", " ")    
 #    return name.strip()
     
-#
+# нова колонка
 #df["clean_location"] = df["roaster_location"].apply(clean_name)
 
-# зберегти результат у новий файл
+# зберегти у новий файл
 #df.to_csv("location_clean.csv", index=False)
 #print("Файл збережено як location_clean.csv")
  
