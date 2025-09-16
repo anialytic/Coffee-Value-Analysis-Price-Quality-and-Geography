@@ -8,7 +8,7 @@ df = pd.read_csv(file, sep=";", on_bad_lines="skip")
 
 #column_to_show = ["roaster_location"]
 
-# список локацій
+# список локацій для стандартизації через словник заміни
 location_list = df["roaster_location"].tolist()
 normalize = {
     "Hilo, Hawai’i Island, Hawai’i": "Hilo, Hawaii",
@@ -279,11 +279,6 @@ def clean_name(x):
 # нова колонка
 df["clean_location"] = df["roaster_location"].apply(clean_name)
 
-# зберегти у новий файл
-output_file = "cleaned_" + file
-df.to_csv(output_file, sep=";", index=False)
-print(f"Новий файл збережено як: {output_file}")
-
 # умовне виконання 
 #def clean_name(name):
 #    name = name.lower()
@@ -316,8 +311,248 @@ print(f"Новий файл збережено як: {output_file}")
 #        return [parts[0], '']         #  місто
 #    else:
 #        city = parts[0]
-#        country = parts[-1]           # остання частина як країна
+#        country = parts[-1]           # остання частина це країна
 #        return [city, country]
 
 #parsed = [parse_location(x) for x in data]
 
+# словник країн
+city_to_country = {
+   	"Acton, Massachusetts",
+ 	"Albuquerque, New Mexico",
+ 	"Anchorage, Alaska",
+ 	"Annapolis, Maryland",
+ 	"Anoka, Minnesota",
+	"Antigua, Guatemala",
+ 	"Arcata, California",
+ 	"Arlington, Massachusetts",
+ 	"Ashland, Oregon",
+ 	"Atlanta, Georgia",
+ 	"Austin, Texas",
+ 	"Barronett, Wisconsin",
+ 	"Bedford, New Hampshire",
+ 	"Bellingham, Washington",
+ 	"Belmar, New Jersey",
+ 	"Berkeley, California",
+ 	"Berlin, Massachusetts",
+ 	"Beverly, Massachusetts",
+ 	"Big Lake, Alaska",
+	"Billings, Montana",
+ 	"Bogota, Colombia",
+ 	"Boise, Idaho",
+ 	"Boston, Massachusetts",
+ 	"Boulder, Colorado",
+ 	"Bozeman, Montana",
+	"Branford, Connecticut",
+ 	"Brooklyn, New York",
+ 	"Buffalo, New York",
+ 	"Burlington, Vermont",
+	"Calgary, Canada",
+ 	"Cambria, California",
+	"Caotun, Taiwan",
+	"Captain Cook, Hawaii",
+ 	"Carbondale, Colorado",
+ 	"Carlsbad, California",
+ 	"Changhua, Taiwan",
+ 	"Charlotte, North Carolina",
+ 	"Charlottesville, Virginia",
+	"Chia-Yi, Taiwan",
+	"Chicago, Illinois",
+ 	"Chino, California",
+    "Cleveland, Tennessee",
+ 	"Columbus, Ohio",
+ 	"Conway, Arkansas",
+ 	"Crystal Lake, Illinois",
+ 	"Daejeon, South Korea",
+ 	"Dallas, Texas",
+ 	"Denver, Colorado",
+ 	"Des Moines, Iowa",
+	"Douliou, Taiwan",
+ 	"Driftless, Wisconsin",
+ 	"Duluth, Minnesota",
+ 	"Durango, Colorado",
+ 	"Durham, North Carolina",
+ 	"Emeryville, California",
+ 	"Eugene, Oregon",
+ 	"Everett, Washington",
+ 	"Fairbanks, Alaska",
+ 	"Floyd, Virginia",
+ 	"Fort Bragg, California",
+ 	"Fort Lauderdale, Florida",
+ 	"Fort Wayne, Indiana",
+ 	"Glendale, California",
+ 	"Hamilton, Montana",
+ 	"Harrisonburg, Virginia",
+ 	"Henderson, Nevada",
+ 	"Highland Park, New Jersey",
+ 	"Hillsborough, North Carolina",
+	"Hilo, Hawaii",
+	"Holualoa, Hawaii",
+ 	"Hong Kong, China",
+ 	"Houston, Texas",
+	"Hsinchu, Taiwan",
+ 	"Hudson, New York",
+	"I-Lan, Taiwan",
+ 	"Ithaca, New York",
+ 	"Jackson, Mississippi",
+ 	"Jakarta, Indonesia",
+	"Jersey, New Jersey",
+ 	"Johns Creek, Georgia",
+	"Kansas, Missouri",
+	"Kaohslung, Taiwan",
+ 	"Ka'u, Hawaii",
+ 	"Keelung, Taiwan",
+	"Kiambu, Kenya",
+ 	"La Jolla, California",
+ 	"Lake Forest, Illinois",
+ 	"Lake Tahoe, California",
+ 	"Lake, Michigan",
+ 	"Langhorne, Pennsylvania",
+ 	"Lee, Massachusetts",
+	"Lexington, Virginia",
+ 	"Lincoln, California",
+ 	"Livingston, Montana",
+	"Llayla, Peru",
+    "Lloydminster, Canada",
+	"London, Canada",
+ 	"London, England",
+	"Long Island, New York",
+ 	"Longwood, Florida",
+ 	"Los Angeles, California",
+ 	"Louisville, Kentucky",
+ 	"Macao, China",
+ 	"Madison, Wisconsin",
+ 	"Manassas, Virginia",
+ 	"Manlius, New York",
+	"Markham, Canada",
+ 	"Martinez, California",
+	"Maui, Hawaii",
+ 	"McHenry, Illinois",
+ 	"Miami, Florida",
+ 	"Milwaukee, Wisconsin",
+ 	"Minneapolis, Minnesota",
+ 	"Minnesota, Minnesota",
+ 	"Montrose, Colorado",
+ 	"Mount Shasta, California",
+	"Mountain View, Hawaii",
+ 	"Nantou, Taiwan",
+ 	"New Brunswick, New Jersey",
+ 	"New Haven, Connecticut",
+ 	"New Orleans, Louisiana",
+	"New Taipei, Taiwan",
+ 	"Newport Beach, California",
+	"Newtown, Australia",
+ 	"Norfolk, Virginia",
+ 	"North Hollywood, California",
+ 	"Oakland, California",
+ 	"Olympia, Washington",
+ 	"Osaka, Japan",
+ 	"Ovledo, Florida",
+	"Pahala, Hawaii",
+	"Paju, South Korea",
+ 	"Peoria, Illinois",
+ 	"Philadelphia, Pennsylvania",
+ 	"Phoenix, Arizona",
+ 	"Pingtung, Taiwan",
+ 	"Plymouth, Massachusetts",
+ 	"Portland, Maine",
+ 	"Portland, Oregon",
+ 	"Post Falls, Idaho",
+    "Pu’Er, China",
+ 	"Raleigh, North Carolina",
+ 	"Ramsey, Minnesota",
+ 	"Redding, California",
+ 	"Redlands, California",
+ 	"Reno, Nevada",
+ 	"Renton, Washington",
+	"Richmond Hill, Canada",
+	"Richmond, Canada",
+ 	"Richmond, Virginia",
+	"Roanoke, Virginia",
+ 	"Rochester, New York",
+	"Sacramento, California",
+ 	"Salem, Massachusetts",
+ 	"San Diego, California",
+ 	"San Dimas, California",
+ 	"San Francisco, California",
+ 	"San Jose, California",
+	"San Juan Lachao, Mexico",
+ 	"San Luis Obispo, California",
+ 	"San Rafael, California",
+	"Santa Ana, El Salvador",
+ 	"Santa Fe, New Mexico",
+ 	"Santa Monica, California",
+ 	"Santa Rosa Beach, Florida",
+ 	"Satipo Province, Peru",
+ 	"Savannah, Georgia",
+ 	"Seattle, Washington",
+ 	"Seoul, South Korea",
+ 	"Shanghai, China",
+ 	"Silver Lake, Minnesota",
+ 	"Sioux Falls, South Dakota",
+ 	"South Korea",
+ 	"Spokane, Washington",
+	"St. Louis, Missouri",
+ 	"Suwanee, Georgia",
+ 	"Suzhou, China",
+ 	"Taichung, Taiwan",
+ 	"Tainan, Taiwan",
+	"Taipei, Taiwan",
+ 	"Taitung, Taiwan",
+ 	"Taiwan",
+ 	"Taiyuan, Taiwan",
+	"Taoyuan, Taiwan",
+ 	"Tequesta, Florida",
+ 	"Thermopolis, Wyoming",
+ 	"Thornton, Colorado",
+ 	"Tiachung, Taiwan",
+ 	"Topeka, Kansas",
+	"Toronto, Canada",
+ 	"Torrington, Connecticut",
+ 	"Truckee, California",
+ 	"Tucson, Arizona",
+ 	"Tulsa, Oklahoma",
+ 	"Upland, California",
+	"Vancouver, Canada",
+ 	"Ventura, California",
+ 	"Viroqua, Wisconsin",
+	"Washington, D.C.",
+ 	"Waterbury, Vermont",
+ 	"Yilan, Taiwan",
+ 	"Yongin-Si, South Korea",
+ 	"Yorktown Heights, New York",
+ 	"Youngstown, Ohio",
+ 	"Yunlin, Taiwan",
+	"Zhubei, Taiwan",
+	"Oakville, Canada",
+}
+
+# список штатів США
+us_states = {
+    "Alabama","Alaska","Arizona","Arkansas","California","Colorado","Connecticut",
+    "Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa",
+    "Kansas","Kentucky","Louisiana","Maine","Maryland","Massachusetts","Michigan",
+    "Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada",
+    "New Hampshire","New Jersey","New Mexico","New York","North Carolina",
+    "North Dakota","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island",
+    "South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont",
+    "Virginia","Washington","West Virginia","Wisconsin","Wyoming"
+}
+# створити нову колонку з назвати країн
+def extract_country(place: str) -> str:
+    try:
+        city, region = [p.strip() for p in place.split(",", 1)]
+    except ValueError:
+        return None
+    if region in us_states:
+        return "USA"
+    return region 
+df["Country"] = df["clean_location"].apply(extract_country)
+
+print(df)
+
+# зберегти у новий файл
+output_file = "cleaned_" + file
+df.to_csv(output_file, sep=";", index=False)
+print(f"Новий файл збережено як: {output_file}")
+print(df.head())
