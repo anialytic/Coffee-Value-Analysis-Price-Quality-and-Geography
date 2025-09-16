@@ -549,7 +549,7 @@ def extract_country(place: str) -> str:
     return region 
 df["Country"] = df["clean_location"].apply(extract_country)
 
-print(df)
+#print(df)
 
 # зберегти у новий файл
 output_file = "cleaned_" + file
