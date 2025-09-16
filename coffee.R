@@ -2,16 +2,16 @@ library(dplyr)
 library(ggplot2)
 
 # спрацювало (Error in read.table(file = file, header = header, sep = sep, quote = quote, : more columns than column names)
-coffee <- read.csv('top-rated-coffee-pp100g(enc).csv')
+coffee <- read.csv('cleaned_top-rated-coffee-pp100g(enc).csv')
 
 # якщо не працює, написати повний шлях
-coffee <- read.csv("C://Users//HP//Desktop//Coffee//top-rated-coffee-pp100g(enc).csv")
+coffee <- read.csv("C://Users//HP//Desktop//Coffee//cleaned_top-rated-coffee-pp100g(enc).csv")
 
 # увага на роздільник
-coffee <- read.csv("top-rated-coffee-pp100g(enc).csv", header = TRUE, sep = ";", fill = TRUE)
+coffee <- read.csv("cleaned_top-rated-coffee-pp100g(enc).csv", header = TRUE, sep = ";", fill = TRUE)
 
 # продивитись перші рядки таблиці
-readLines("top-rated-coffee-pp100g(enc).csv", n = 10)
+readLines("cleaned_top-rated-coffee-pp100g(enc).csv", n = 10)
 
 # подивитись директорію
 getwd()
@@ -46,4 +46,20 @@ coffee %>%
     slice_max(n=10, price_per_100g) %>%
     arrange(desc(price_per_100g))
 
+
+
+# порахувати, де найбільше записів + графік (цей графік стосується roaster_country)
+country_counts <- as.data.frame(table(df$Country))
+ggplot(country_counts, aes(x = reorder(Var1, -Freq), y = Freq)) +
+  geom_bar(stat = "identity", fill = "pink") +
+  labs(x = "Країна", y = "Кількість", title = "Кількість кави по країнах") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+names(df)
+df <- read.csv("cleaned_top-rated-coffee-pp100g(enc).csv", sep=";", header=FALSE, stringsAsFactors = FALSE)
+
+# вказати назви колонок вручну
+colnames(df) <- c("coffee_name",	"total_score",	"roaster_location",	"coffee_origin",	"roast_level",	"est._price",	"agtron_ground",	"agtron_roast",	"price_per_100g",	"price_per_ounce",	"origin_country",	"clean_location",	"Country")
+names(df)
+head(df)
 # гіпотеза: найдорожчі види кави пов'язані з регіонами: Гватемала та Ефіопія
