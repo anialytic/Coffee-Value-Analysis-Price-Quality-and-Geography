@@ -15,3 +15,11 @@ from coffee
 where origin_country_clean is not null
 group by origin_country_clean
 order by avg_score desc
+
+--total amount of coffee by country
+select count(coffee_name) as coffee_nmb,
+	origin_country_clean
+from coffee
+where origin_country_clean is not null
+group by origin_country_clean
+order by coffee_nmb desc
