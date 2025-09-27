@@ -38,3 +38,19 @@ from(
 ) t
 where rn = 1
 order by total_score desc
+
+-- top 3 countries with avg_price per 100g higher
+select 
+	origin_country_clean, 
+	avg(price_per_100g) as avg_price
+from coffee
+where origin_country_clean is not null
+group by origin_country_clean
+having avg(price_per_100g) > 
+(
+select 
+	avg(price_per_100g) as avg_price
+from coffee
+)
+order by avg_price desc
+limit 3
