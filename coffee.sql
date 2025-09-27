@@ -54,3 +54,15 @@ from coffee
 )
 order by avg_price desc
 limit 3
+
+-- countries with coffee amount > 20 + average score
+select 
+	origin_country_clean
+	, avg(total_score) as avg_score
+	, count(distinct coffee_name) as coffee_nmb
+from coffee
+where origin_country_clean is not null
+group by origin_country_clean
+having count(distinct coffee_name) > 20
+
+--
