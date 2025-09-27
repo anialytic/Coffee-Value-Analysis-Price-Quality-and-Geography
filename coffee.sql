@@ -65,4 +65,11 @@ where origin_country_clean is not null
 group by origin_country_clean
 having count(distinct coffee_name) > 20
 
---
+--avg_price for medium light per each country
+select 
+	origin_country_clean
+	, avg(price_per_100g) as avg_price
+from coffee
+where roast_level = 'Medium Light' and origin_country_clean is not null
+group by origin_country_clean
+order by avg_price desc
