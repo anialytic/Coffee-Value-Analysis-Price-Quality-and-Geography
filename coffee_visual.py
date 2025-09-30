@@ -2,24 +2,27 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-x = [0,1,2,3,4]
-y = [0,2,4,6,8]
+df = pd.read_csv("coffee-cleaned.csv", sep=';')
 
-plt.figure(figsize=(5,3), dpi=300)
-plt.plot(x,y, label='2x', color='pink', linewidth=2, marker='.', markersize=10, markeredgecolor='brown', linestyle='--')
+#count "coffee_name", group by "origin_country_clean", ignore countries with less then 20
+counts = df.groupby("origin_country_clean").size()
+counts = counts[counts >= 20]
 
-x2 = np.arange(0,4.5,0.5)
-plt.plot(x2, x2**2, 'r--', label='x^2')
+#parameters 
+plt.figure(figsize=(10,6), dpi=100)
+counts.plot(kind='bar', color='pink')
 
-plt.title('title', fontdict={'fontsize': 20})
-plt.xlabel('x-label')
-plt.ylabel('y-label')
+#plt.plot(x,y, label='2x', color='pink', linewidth=2, marker='.', markersize=10, markeredgecolor='brown', linestyle='--')
+#x2 = np.arange(0,4.5,0.5)
+#plt.plot(x2, x2**2, 'r--', label='x^2')
 
-plt.xticks([0,1,2,3,4])
-plt.yticks([0,2,4,6,8,10])
-
-plt.legend()
-
+#table&vector title
+plt.title('Amount coffee per country', fontdict={'fontsize': 20})
+plt.xlabel('Countries')
+plt.ylabel('Coffee count')
+plt.xticks(rotation=45)
+plt.tight_layout
 plt.show()
 
-plt.savefig('mygraph.png', dpi=300)
+#plt.legend()
+#plt.savefig('mygraph.png', dpi=150)
