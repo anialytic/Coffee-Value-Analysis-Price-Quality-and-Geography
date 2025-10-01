@@ -16,7 +16,7 @@ counts.plot(kind='bar', color='pink')
 #x2 = np.arange(0,4.5,0.5)
 #plt.plot(x2, x2**2, 'r--', label='x^2')
 
-#table&vector title
+#figure&vector title
 plt.title('Amount coffee per country', fontdict={'fontsize': 20})
 plt.xlabel('Countries')
 plt.ylabel('Coffee count')
