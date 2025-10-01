@@ -90,3 +90,15 @@ coffee %>%
 coffee %>%
   slice_max(order_by = price_per_100g, n = 10) %>%
   select(coffee_name, origin_country_clean, price_per_100g)
+
+# коробкова діаграма цін по країнам (топ 5)
+top_countries <- names(sort(table(coffee$origin_country_clean), decreasing = TRUE))[1:5]
+df_top <- coffee[coffee$origin_country_clean %in% top_countries, ]
+df_clean <- subset(df_top, origin_country_clean != "" & !is.na(origin_country_clean) & !is.na(price_per_100g))
+
+ggplot(df_clean, aes(x = origin_country_clean, y = price_per_100g)) +
+  geom_boxplot(fill = "pink") +
+  labs(title = "Price distribution (Top 5 countries)",
+       x = "Country",
+       y = "Price") +
+  theme_minimal()
