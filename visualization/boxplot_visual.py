@@ -1,16 +1,18 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import numpy as np
 
 df = pd.read_csv('coffee-cleaned.csv', sep=';')
+df['log_price'] = np.log1p(df['price_per_100g'])
 
-data = df['price_per_100g']
+data = df['log_price']
 countries = df["origin_country_clean"].value_counts().head(5).index
 df_top = df[df["origin_country_clean"].isin(countries)]
 
 # create boxplot
 #plt.figure(figsize=(8, 6)) creates empty figure
-df_top.boxplot(column="price_per_100g", by="origin_country_clean", grid=True)
+df_top.boxplot(column="log_price", by="origin_country_clean", grid=True)
 
 #boxplot&lable title
 plt.title("Price distribution by country (Top 5 countries)")
