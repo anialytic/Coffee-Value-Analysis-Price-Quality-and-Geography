@@ -2,10 +2,10 @@ library(dplyr)
 library(ggplot2)
 
 # спрацювало (Error in read.table(file = file, header = header, sep = sep, quote = quote, : more columns than column names)
-coffee <- read.csv('coffee-cleaned.csv')
+#coffee <- read.csv('coffee-cleaned.csv')
 
 # якщо не працює, написати повний шлях
-coffee <- read.csv("C://Users//HP//Desktop//Coffee//coffee-cleaned.csv")
+#coffee <- read.csv("C://Users//HP//Desktop//Coffee//coffee-cleaned.csv")
 
 # увага на роздільник
 coffee <- read.csv("coffee-cleaned.csv", header = TRUE, sep = ";", fill = TRUE)
@@ -160,3 +160,14 @@ ggplot(df, aes(x = roast_level, y = total_score, fill = roast_level)) +
     x = "Рівень обсмаження",
     y = "Загальний бал"
   )
+
+# кореляція між оцінкою якості та ціною (низький коефіцієнт кореляцій)
+cor(coffee$price_per_100g, coffee$total_score, use = "complete.obs")
+
+
+ggplot(coffee, aes(x = total_score, y = price_per_100g)) +
+  geom_point(color = "pink") +
+  geom_smooth(method = "lm", se = FALSE, color = "violet") +
+  labs(title = "Зв'язок між оцінкою якості і ціною за 100г (у доларах США)",
+       x = "Оцінка якості",
+       y = "Ціна за 100 г (у доларах США)")
