@@ -164,10 +164,15 @@ ggplot(df, aes(x = roast_level, y = total_score, fill = roast_level)) +
 # кореляція між оцінкою якості та ціною (низький коефіцієнт кореляцій)
 cor(coffee$price_per_100g, coffee$total_score, use = "complete.obs")
 
-
 ggplot(coffee, aes(x = total_score, y = price_per_100g)) +
   geom_point(color = "pink") +
   geom_smooth(method = "lm", se = FALSE, color = "violet") +
   labs(title = "Зв'язок між оцінкою якості і ціною за 100г (у доларах США)",
        x = "Оцінка якості",
        y = "Ціна за 100 г (у доларах США)")
+
+# кореляція між ціною за 100 г та іншими показниками (низький коефіцієнт)
+cor(coffee$agtron_roast, coffee$price_per_100g, use = "complete.obs")
+cor(coffee$agtron_ground, coffee$price_per_100g, use = "complete.obs")
+cor(coffee$total_score, coffee$agtron_roast, use = "complete.obs")
+cor(coffee$total_score, coffee$agtron_ground, use = "complete.obs")
