@@ -176,3 +176,14 @@ cor(coffee$agtron_roast, coffee$price_per_100g, use = "complete.obs")
 cor(coffee$agtron_ground, coffee$price_per_100g, use = "complete.obs")
 cor(coffee$total_score, coffee$agtron_roast, use = "complete.obs")
 cor(coffee$total_score, coffee$agtron_ground, use = "complete.obs")
+
+
+plot(coffee)
+plot(coffee$agtron_ground, coffee$agtron_roast, 
+     col = "#cc0000",
+     pch = 19, 
+     main ="Coffee: agtron_ground vs. agtron_roast", 
+     xlab = "Agtron ground", 
+     ylab = "Agtron roast")
+
+cor(coffee$agtron_ground, coffee$agtron_roast, use = "complete.obs")
