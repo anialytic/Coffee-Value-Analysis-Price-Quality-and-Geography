@@ -205,3 +205,24 @@ plot(lars_model)
 summary(lars_model)
 
 
+install.packages("glmnet")
+library(glmnet)
+X <- model.matrix(price_per_100g ~ agtron_ground + agtron_roast + total_score, coffee)[, -1]
+y <- coffee$price_per_100g
+lasso_model <- glmnet(X, y, alpha = 1)
+#different amount of rows
+data_clean <- na.omit(data.frame(X, y))
+nrow(X)
+length(y)
+X <- as.matrix(coffee[, c("agtron_ground", "agtron_roast", "total_score")])
+y <- coffee$price_per_100g
+#clean rows
+coffee_clean <- na.omit(coffee[, c("agtron_ground", "agtron_roast", "total_score", "price_per_100g")])
+X_clean <- as.matrix(coffee_clean[, c("agtron_ground", "agtron_roast", "total_score")])
+y_clean <- coffee_clean$price_per_100g
+nrow(X_clean)
+length(y_clean)
+lasso_model <- glmnet(X_clean, y_clean, alpha = 1)
+plot(lasso_model)
+cv_lasso <- cv.glmnet(X_clean, y_clean, alpha = 1)
+coef(cv_lasso, s = "lambda.min")
