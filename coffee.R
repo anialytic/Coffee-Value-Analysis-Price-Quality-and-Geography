@@ -1,6 +1,12 @@
 library(dplyr)
 library(ggplot2)
 
+# спрацювало (Error in read.table(file = file, header = header, sep = sep, quote = quote, : more columns than column names)
+coffee <- read.csv('coffee-cleaned.csv')
+
+# якщо не працює, написати повний шлях
+coffee <- read.csv("C://Users//HP//Desktop//Coffee//coffee-cleaned.csv")
+
 # увага на роздільник
 coffee <- read.csv("coffee-cleaned.csv", header = TRUE, sep = ";", fill = TRUE)
 
@@ -96,112 +102,3 @@ ggplot(df_clean, aes(x = origin_country_clean, y = price_per_100g)) +
        x = "Country",
        y = "Price") +
   theme_minimal()
-
-# гіпотеза: чим більший ступінь обсмажування, тим дорожча кава
-# H0: немає зв'язку між ступенем обсмажування та ціною
-# H1: є зв'язок між ступенем обсмажування та ціною
-
-install.packages(c("tidyverse", "Hmisc", "corrplot", "GGally", "psych", "ggcorrplot"))
-
-library(tidyverse)   
-library(Hmisc)      
-library(corrplot) 
-library(GGally)
-library(psych)       
-library(ggcorrplot)
-
-head(df)      
-str(df)        
-summary(df)
-
-str(df$roast_level)
-str(df$total_score)
-
-#замінти текстові значення на числов
-df$total_score <- gsub(",", ".", df$total_score)
-df$total_score <- as.numeric(df$total_score)   
-
-#почистити порожні дані
-df <- df %>%
-  mutate(
-    roast_level = na_if(roast_level, ""),          
-    roast_level = ifelse(roast_level == "roast_level", NA, roast_level)
-  )
-
-df$roast_level <- as.factor(df$roast_level)
-
-#які рівні обсмаження мають вищий/нижчий середній бал
-df %>%
-  group_by(roast_level) %>%
-  summarise(
-    n = n(),
-    mean_score = mean(total_score, na.rm = TRUE),
-    sd_score = sd(total_score, na.rm = TRUE)
-  ) %>%
-  arrange(desc(n))
-
-# anova
-anova_result <- aov(total_score ~ roast_level, data = df)
-summary(anova_result)
-
-TukeyHSD(anova_result)
-
-ggplot(df, aes(x = roast_level, y = total_score, fill = roast_level)) +
-  geom_boxplot() +
-  theme_minimal() +
-  labs(
-    title = "Розподіл Total Score за Roast Level",
-    x = "Рівень обсмаження",
-    y = "Загальний бал"
-  )
-
-# кореляція між оцінкою якості та ціною (низький коефіцієнт кореляцій)
-cor(coffee$price_per_100g, coffee$total_score, use = "complete.obs")
-
-ggplot(coffee, aes(x = total_score, y = price_per_100g)) +
-  geom_point(color = "pink") +
-  geom_smooth(method = "lm", se = FALSE, color = "violet") +
-  labs(title = "Зв'язок між оцінкою якості і ціною за 100г (у доларах США)",
-       x = "Оцінка якості",
-       y = "Ціна за 100 г (у доларах США)")
-
-# кореляція між ціною за 100 г та іншими показниками (низький коефіцієнт)
-cor(coffee$agtron_roast, coffee$price_per_100g, use = "complete.obs")
-cor(coffee$agtron_ground, coffee$price_per_100g, use = "complete.obs")
-cor(coffee$total_score, coffee$agtron_roast, use = "complete.obs")
-cor(coffee$total_score, coffee$agtron_ground, use = "complete.obs")
-
-
-plot(coffee)
-plot(coffee$agtron_ground, coffee$agtron_roast, 
-     col = "#cc0000",
-     pch = 19, 
-     main ="Coffee: agtron_ground vs. agtron_roast", 
-     xlab = "Agtron ground", 
-     ylab = "Agtron roast")
-
-cor(coffee$agtron_ground, coffee$agtron_roast, use = "complete.obs")
-
-install.packages("lars")
-library(lars)
-X <- as.matrix(coffee[, c("agtron_ground", "agtron_roast", "total_score")])
-y <- coffee$price_per_100g
-lars_model <- lars(X, y)
-summary(lars_model)
-plot(lars_model)
-# check an error
-str(X)
-sum(is.na(X))
-sum(is.na(y))
-# sum was > 0, needs to be cleaned
-data_clean <- na.omit(data.frame(X, y))
-X_clean <- as.matrix(data_clean[, c("agtron_ground", "agtron_roast", "total_score")])
-y_clean <- data_clean$y
-sum(is.na(X_clean))
-sum(is.na(y_clean))
-#new attempt
-lars_model <- lars(X_clean, y_clean)
-plot(lars_model)
-summary(lars_model)
-
-
