@@ -1,7 +1,7 @@
 coffee_name;total_score;roast_level;agtron_ground;agtron_roast;price_per_100g;roaster_country;origin_country
 Colombia Finca Campo Hermosa;94;Light;62;82;13.22;USA;Colombia
 Colombia Finca La Sirena Mango Co-Ferment;94;Light;63;87;10.14;USA;Colombia
-In Bloom;94;Light;64;88;10.0;USA;Ethiopia
+In Bloom;94;Light;64;88;10;USA;Ethiopia
 Ethiopia Washed Kaffa Gimbo Lot Rich Espresso;96;Medium Light;55;77;110.23;Taiwan;Ethiopia
 Ethiopia Natural Gute Bona;95;Medium Light;62;78;176.37;Taiwan;Ethiopia
 White Geisha Blend Espresso;95;Medium Light;60;78;17.2;Taiwan;Ethiopia
@@ -13,8 +13,8 @@ Hechi;94;Light;60;86;145.5;Taiwan;Ethiopia
 Las Margaritas Sudan Rume;95;Light;60;84;11.9;USA;Colombia
 Wilton Benitez Geisha;95;Light;62;84;11.46;USA;Colombia
 Itumpi Tanzania;94;Medium Light;59;81;6.47;USA;Tanzania
-Ethiopia Yirgacheffe G1 Gotiti Angel Station Geisha Washed;94;Light;62;82;275.0;Taiwan;Ethiopia
-Ethiopia Guji Hambela Buku Abel Bastet Geisha Washed;94;Light;63;85;275.0;Taiwan;Ethiopia
+Ethiopia Yirgacheffe G1 Gotiti Angel Station Geisha Washed;94;Light;62;82;275;Taiwan;Ethiopia
+Ethiopia Guji Hambela Buku Abel Bastet Geisha Washed;94;Light;63;85;275;Taiwan;Ethiopia
 Finca Cruz Loma Ecuador Geisha;96;Medium Light;60;77;14.11;USA;Ecuador
 Costa Rica Finca El Cañal;95;Light;60;88;8.82;USA;Costa Rica
 Hambela Dabaye Ethiopia;95;Light;65;87;10.58;USA;Ethiopia
@@ -23,7 +23,7 @@ Duwancho Natural Ethiopia;94;Light;61;82;8.23;USA;Ethiopia
 Colombia Finca Santa Barbara Gesha Anaerobic Honey;95;Light;63;87;9.41;USA;Colombia
 Colombia Faver Emir Ninco Pink Bourbon;94;Light;61;81;246.47;Taiwan;Colombia
 Ethiopia Yirgacheffe Earl Grey Peach;94;Light;65;87;145.06;Taiwan;Ethiopia
-Colombia Cauca Lusitania Geisha Washed;94;Light;66;88;470.0;Taiwan;Colombia
+Colombia Cauca Lusitania Geisha Washed;94;Light;66;88;470;Taiwan;Colombia
 Kenya Kirinyaga Karamundi Washed AB;95;Light;66;86;211.64;Taiwan;Kenya
 Kaʻū Morning Glory;97;Light;62;84;16.75;USA;USA
 Kaʻū Yellow Bourbon;95;Medium Light;60;80;15.52;USA;USA
@@ -61,7 +61,7 @@ Yemen Al Obrah;95;Light;62;86;18.52;USA;Yemen
 Kenya Embu;95;Light;62;80;528.63;Taiwan;Kenya
 Yemen Ismaili;94;Medium Light;57;81;528.63;Taiwan;Yemen
 Guatemala Acatenango Geisha;94;Medium Light;59;79;528.63;Taiwan;Guatemala
-Ethiopia Bench-Maji Lucy Geisha Anaerobic Natural;94;Light;64;88;300.0;Taiwan;Ethiopia
+Ethiopia Bench-Maji Lucy Geisha Anaerobic Natural;94;Light;64;88;300;Taiwan;Ethiopia
 Wilton Benitez Colombia Yellow Bourbon;96;Light;63;88;9.7;USA;Colombia
 Kona Tropical Punch Washed;95;Light;68;84;44.09;USA;USA
 Granate;94;Medium Light;57;79;5.4;Peru;Peru
@@ -70,8 +70,8 @@ Costa Rica San Diego;94;Medium Light;57;77;6.47;USA;Costa Rica
 Costa Rica La Candelilla Geisha;94;Light;62;84;10.29;USA;Costa Rica
 Ethiopia Agaro Duromina;94;Medium Light;59;79;6.47;USA;Ethiopia
 Panama Renaissance Series Flora Geisha Washed;94;Light;68;94;352.42;Taiwan;Panama
-Colombia San Martin Bourbon Aji Star Fruit Peach Honey;95;Light;64;88;325.0;Taiwan;Colombia
-Taiwan COE #3 Alishan Zhou Zhu Yuan Geisha Natural;94;Light;62;80;2.0;Taiwan;Taiwan
+Colombia San Martin Bourbon Aji Star Fruit Peach Honey;95;Light;64;88;325;Taiwan;Colombia
+Taiwan COE #3 Alishan Zhou Zhu Yuan Geisha Natural;94;Light;62;80;2;Taiwan;Taiwan
 Las Margaritas Colombia Sudan Rume Natural;95;Light;62;86;11.02;USA;Colombia
 Yabitu Koba Ethiopia;95;Medium Light;58;78;6.76;USA;Ethiopia
 Pantan Musara Sumatra;94;Medium Light;57;80;6.76;USA;Indonesia
@@ -85,12 +85,12 @@ Kenya Kii;94;Medium Light;58;82;10.4;USA;Kenya
 Ethiopia Guji Bishala G1 Red Honey;94;Medium Light;58;80;202.82;Taiwan;Ethiopia
 Ethiopia Sidama Bensa Shantawene Gatta Kenean Dukamo Anaerobic Natural G1;94;Light;66;89;317.46;Taiwan;Ethiopia
 Kenya Nyeri Hill AB;96;Medium Light;58;82;6.91;USA;Kenya
-Ethiopia Sidama  Bombe Natural;94;Light;61;85;175.0;Taiwan;Ethiopia
+Ethiopia Sidama  Bombe Natural;94;Light;61;85;175;Taiwan;Ethiopia
 Ethiopia Kayon Mountain;95;Light;64;88;7.05;USA;Ethiopia
 Colombia Red Sunset;94;Light;60;84;7.94;USA;Colombia
-Ethiopia Gesha Village Lot 108;94;Light;66;89;60.0;USA;Ethiopia
-Panama Geisha Vuelta DRD Natural Lot GN-01;97;Light;64;88;2000.0;USA;Panama
-Panama Kaizen Lot GW-01;96;Light;65;90;2000.0;USA;Panama
+Ethiopia Gesha Village Lot 108;94;Light;66;89;60;USA;Ethiopia
+Panama Geisha Vuelta DRD Natural Lot GN-01;97;Light;64;88;2000;USA;Panama
+Panama Kaizen Lot GW-01;96;Light;65;90;2000;USA;Panama
 Kona Geisha Champagne Natural;95;Light;64;88;176.37;USA;USA
 Ethiopia Nano Genji Lot #8;94;Light;64;84;6.47;USA;Ethiopia
 Colombia Hacienda La Pradera Mokka;94;Light;64;88;12.35;USA;Colombia
@@ -133,14 +133,14 @@ Costa Rica La Laguna Lot Secret Stash;94;Light;64;86;8.82;USA;Costa Rica
 Ballista Espresso;94;Medium Light;56;74;5.42;USA;Brazil
 Ethiopia Natural Lion 88;94;Light;66;90;220.46;Taiwan;Ethiopia
 Panama Lamastus Family Elida Estate Loma Geisha Washed;97;Light;64;88;0.88;Taiwan;Panama
-Colombia El Paraiso Geisha Anti-Maceration;95;Light;70;94;58.0;Japan;Colombia
+Colombia El Paraiso Geisha Anti-Maceration;95;Light;70;94;58;Japan;Colombia
 Ethiopia Alo Chilaka Natural;94;Light;66;88;6.47;USA;Ethiopia
 Panama Bambito Gesha;94;Light;62;84;24.25;USA;Panama
 Panama Geisha Vuelta DRD Natural;97;Light;66;88;77.6;USA;Panama
 Kona S12 Kaffa Washed;96;Light;67;94;88.18;USA;USA
 Kona Geisha Rosé Washed;96;Light;64;88;88.18;USA;USA
-Colombia Cafe La Granja Pink Bourbon;96;Light;62;88;28.0;USA;Colombia
-Colombia Cafe La Granja Sudan Rume Natural;95;Light;66;92;28.0;USA;Colombia
+Colombia Cafe La Granja Pink Bourbon;96;Light;62;88;28;USA;Colombia
+Colombia Cafe La Granja Sudan Rume Natural;95;Light;66;92;28;USA;Colombia
 Panama Tierra Blanca C-5 Geisha Washed BOP-GW-05;97;Light;64;88;617.28;Taiwan;Panama
 Kenya AA Kangiri New Irati;95;Light;66;84;5.59;USA;Kenya
 Costa Rica Central Valley Honey Geisha;94;Light;62;80;9.41;USA;Costa Rica
@@ -165,7 +165,7 @@ Taiwan Natural Alishan Chi Tsai Liu Li Ecological Farm;94;Medium Light;60;77;0.8
 Wilton Benitez SL28;96;Medium Light;58;82;14.55;USA;Colombia
 Kolla Bolcha #6 Ethiopia;94;Medium Light;60;79;5.88;USA;Ethiopia
 Bener Meriah Sumatra;94;Medium Light;59;77;5.88;USA;Indonesia
-Yemen Haraaz;96;Light;60;82;16.0;USA;Yemen
+Yemen Haraaz;96;Light;60;82;16;USA;Yemen
 Ethiopia Yirgacheffe Hama Honey;95;Medium Light;59;81;264.32;Taiwan;Ethiopia
 Colombia Finca Santuario Red Bourbon Natural;95;Light;62;94;264.32;Taiwan;Colombia
 Ethiopia Yirgacheffe Gutiti Gargari Natural;94;Medium Light;60;77;198.24;Taiwan;Ethiopia
@@ -184,7 +184,7 @@ Colombia Finca La Reserva;94;Light;64;84;8.81;USA;Colombia
 Ethiopia Washed Ayla Bombe;94;Medium Light;59;79;5.59;USA;Ethiopia
 Ethiopia Mr. Ocholo Bedecho;95;Light;58;84;6.47;USA;Ethiopia
 Colombia Pink Champagne El Mirador Blend;94;Light;66;93;10.23;USA;Colombia
-Guatemala El Injerto Malawi Geisha Washed;95;Light;69;88;950.0;Taiwan;Guatemala
+Guatemala El Injerto Malawi Geisha Washed;95;Light;69;88;950;Taiwan;Guatemala
 Guatemala El Injerto Legendary Geisha Natural Lot E1-06;94;Light;60;88;20.87;Taiwan;Guatemala
 Guatemala Washed Finca La Hermosa Gesha Peaberry;94;Medium Light;56;84;19.36;Taiwan;Guatemala
 Qunqana Ethiopia;95;Light;63;81;6.76;USA;Ethiopia
@@ -199,7 +199,7 @@ Colombia Fruit Loops Gesha Washed;94;Light;65;89;22.33;USA;Colombia
 Kenya Gachatha AA Top;94;Light;62;80;136.24;Taiwan;Kenya
 Ethiopia Bench-Maji Lucy Station Geisha Washed;94;Light;64;84;149.47;Taiwan;Ethiopia
 Ethiopia Yirgacheffe Lalisa Black Honey TOH#2;94;Light;66;90;197.97;Taiwan;Ethiopia
-Panama Hacienda La Esmeralda Nano GIGANTE 4FC-N Geisha Washed;97;Light;62;84;6000.0;Taiwan;Panama
+Panama Hacienda La Esmeralda Nano GIGANTE 4FC-N Geisha Washed;97;Light;62;84;6000;Taiwan;Panama
 Kenya Washed Kiambu AA;96;Medium;47;69;127.87;Taiwan;Kenya
 Kenya Washed Kiambu Maganjo AA TOP;95;Medium Light;58;82;154.32;Taiwan;Kenya
 Ethiopia Washed Yirgacheffe Botabaa Lot;95;Light;62;84;145.5;Taiwan;Ethiopia
@@ -208,9 +208,9 @@ Orange Bourbon Natural;95;Light;64;88;15.43;USA;Unknown
 Ethiopia Yirgacheffe Huke Premium Washed G1;95;Light;64;82;6.17;USA;Ethiopia
 Ethiopia Yirgacheffe Huke Premium Natural G1;94;Light;62;80;6.17;USA;Ethiopia
 Colombia El Vergel #1;94;Light;64;86;4.41;USA;Colombia
-Ethiopia Sidama Bensa;94;Light;65;87;175.0;Taiwan;Ethiopia
+Ethiopia Sidama Bensa;94;Light;65;87;175;Taiwan;Ethiopia
 Ethiopia Guji Rosechee Washed G1;94;Light;66;88;264.32;Taiwan;Ethiopia
-Ethiopia Bench-Maji Lucy Geisha;94;Light;66;84;190.0;Taiwan;Ethiopia
+Ethiopia Bench-Maji Lucy Geisha;94;Light;66;84;190;Taiwan;Ethiopia
 Ethiopia Oromi Guji Hamela Wamena Tirtira Goyo Natural G1;95;Light;66;88;211.64;Taiwan;Ethiopia
 Acacia Hills Geisha;96;Medium Light;58;80;10.58;USA;Tanzania
 Nsoga Iweyza Tanzania;95;Medium Light;57;77;10.58;USA;Tanzania
@@ -224,7 +224,7 @@ Colombia Wilton Benitez Yellow Bourbon;94;Light;65;90;12.4;USA;Colombia
 Colombia Wilton Benitez Gesha Thermal Shock Wine Yeast;96;Light;68;92;24.8;USA;Colombia
 Colombia Wilton Benitez Striped Bourbon Thermal Shock;95;Light;65;92;24.8;USA;Colombia
 Ethiopia Mulish;94;Medium Light;58;78;7.5;USA;Ethiopia
-Ethiopia Gesha Village Oma Gesha 1931 Natural;96;Light;59;83;799.0;Taiwan;Ethiopia
+Ethiopia Gesha Village Oma Gesha 1931 Natural;96;Light;59;83;799;Taiwan;Ethiopia
 Ethiopia Djimma Limu Gummay Baby Geisha Washed;95;Light;64;88;158.29;Taiwan;Ethiopia
 Ethiopia Yirgacheffe Kochere Halo Hartume Washed G1;94;Light;64;86;254.55;Taiwan;Ethiopia
 Ethiopia Guji Bule Hambela TOH#1;94;Medium Light;57;76;264.11;Taiwan;Ethiopia
@@ -245,8 +245,8 @@ Taiwan Natural Meishan Ching-Ye Farm Lot 0116;94;Light;62;80;352.73;Taiwan;Taiwa
 Gesha Spirits;96;Light;64;88;16.31;USA;Colombia
 Colombia El Jardin Anaerobic Natural;94;Medium Light;59;81;6.16;USA;Colombia
 Colombia Los Nogales Yellow Bourbon;94;Light;63;86;18.67;Japan;Colombia
-Ethiopia Chelba Natural;94;Medium Light;51;80;175.0;Taiwan;Ethiopia
-Tanzania Karatu Acacia Hills Geisha Washed AB Espresso;94;Medium Light;58;80;399.0;Taiwan;Tanzania
+Ethiopia Chelba Natural;94;Medium Light;51;80;175;Taiwan;Ethiopia
+Tanzania Karatu Acacia Hills Geisha Washed AB Espresso;94;Medium Light;58;80;399;Taiwan;Tanzania
 Las Margaritas Geisha Honey;95;Light;62;84;11.02;USA;Colombia
 Colombia Papayo;94;Light;62;86;8.82;USA;Colombia
 Las Margaritas Sudan Rume Natural;94;Medium Light;59;82;17.64;USA;Colombia
@@ -258,10 +258,10 @@ Ethiopia Washed Sidama Bensa Single Variety 74158;94;Light;62;82;264.32;Taiwan;E
 Guatemala Bella Carmona;94;Medium Light;57;79;5.88;USA;Guatemala
 Wilton Benitez Sidra;95;Light;57;89;11.46;USA;Colombia
 Putra Gayo Sumatra;94;Light;60;88;6.76;USA;Indonesia
-Colombia José Julián Giraldo Pink Bourbon Panela Sticky;95;Light;65;89;17.0;USA;Colombia
+Colombia José Julián Giraldo Pink Bourbon Panela Sticky;95;Light;65;89;17;USA;Colombia
 Kenya Gatirima AA;94;Light;66;88;6.76;USA;Kenya
 Kenya Washed Kirinyaga Getuya AA Top;96;Light;62;80;158.73;Taiwan;Kenya
-Ethiopia Natural Sidama Espresso;95;Light;66;86;97.0;Taiwan;Ethiopia
+Ethiopia Natural Sidama Espresso;95;Light;66;86;97;Taiwan;Ethiopia
 True Love Espresso Blend;94;Medium Light;57;77;114.64;Taiwan;Guatemala
 Guatemala Honey Finca El General Gesha;94;Light;62;80;264.55;Taiwan;Guatemala
 Ethiopia Natural Sidama Bacha 74110;95;Light;66;88;143.3;Taiwan;Ethiopia
@@ -279,12 +279,12 @@ Colombia Finca La Secreta Lychee Caturra Anaerobic;94;Light;62;84;8.82;USA;Colom
 Colombia Lychee Co-Ferment;94;Medium Light;59;81;9.92;USA;Colombia
 Reserve Costa Rica Don Noel SL28;94;Light;60;82;8.23;USA;Costa Rica
 Ethiopia Rumadamo Anaerobic Washed;96;Light;66;91;16.17;USA;Ethiopia
-Ethiopia Djimma Limu Gummay Baby Geisha G1 Washed;96;Light;67;90;300.0;Taiwan;Ethiopia
+Ethiopia Djimma Limu Gummay Baby Geisha G1 Washed;96;Light;67;90;300;Taiwan;Ethiopia
 La Papaya Pacamara Natural Ecuador;94;Light;60;84;9.7;USA;Ecuador
 Palo de Rosa Pink Bourbon Colombia;94;Medium Light;61;79;9.7;USA;Colombia
 Java Argopuro Mountain Natural SOE;94;Medium Light;56;79;7.94;USA;Indonesia
 Rwanda Rambagirakawa;94;Medium Light;59;77;7.64;USA;Rwanda
-Colombia Rigoberto Herrera Granja La Esperanza Hybrid Washed Gesha;95;Light;66;90;24.0;USA;Colombia
+Colombia Rigoberto Herrera Granja La Esperanza Hybrid Washed Gesha;95;Light;66;90;24;USA;Colombia
 Colombia El Diviso;94;Light;75;90;396.83;Taiwan;Colombia
 Colombia Limited Release 2024;94;Light;66;83;10.58;USA;Colombia
 Colombia Wilton Benitez Orange Bourbon;94;Light;62;84;22.49;USA;Colombia
@@ -292,8 +292,8 @@ Colombia El Vergel #1;95;Light;62;80;4.41;USA;Colombia
 Colombia Luna Azul;94;Light;66;88;7.35;USA;Colombia
 Colombia Cauca Castillo K-01;94;Medium Light;59;82;15.87;USA;Colombia
 Ethiopia Sidama G4 Wamena Natural Espresso;94;Medium Light;59;81;127.75;Taiwan;Ethiopia
-Colombia El Paraiso Lychee Rose;94;Light;65;87;500.0;Taiwan;Colombia
-Colombia Cauca Finca EI Paraiso 92 Pink Bourbon;95;Light;66;92;300.0;Taiwan;Colombia
+Colombia El Paraiso Lychee Rose;94;Light;65;87;500;Taiwan;Colombia
+Colombia Cauca Finca EI Paraiso 92 Pink Bourbon;95;Light;66;92;300;Taiwan;Colombia
 Kona Geisha Washed;96;Light;64;86;88.18;USA;USA
 Karen J Kona Red Bourbon Anaerobic;95;Medium Light;58;82;24.23;USA;USA
 Ethiopia Kayon Mountain;95;Light;65;86;7.05;USA;Ethiopia
@@ -301,7 +301,7 @@ Ethiopia Yirgacheffe Chelchele Washed G1;94;Light;62;86;145.06;Taiwan;Ethiopia
 Kenya Nyeri Hill;94;Light;62;80;6.47;USA;Kenya
 Colombia Wilder Lasso Geisha Lot 2 Anaerobic Washed;95;Light;66;103;26.67;USA;Colombia
 Dragon Strong Espresso;94;Medium;45;62;286.34;Taiwan;Costa Rica
-Ethiopia Sidama Bombe Tadisa;94;Light;68;90;195.0;Taiwan;Ethiopia
+Ethiopia Sidama Bombe Tadisa;94;Light;68;90;195;Taiwan;Ethiopia
 Riripa Ethiopia;95;Light;60;84;5.88;USA;Ethiopia
 Ethiopia Washed Guji Uraga Haro Adama;95;Light;64;86;123.46;Taiwan;Ethiopia
 Ethiopia Washed Kaffa Lot Rich Espresso;94;Medium Light;58;78;88.18;Taiwan;Ethiopia
@@ -312,7 +312,7 @@ Kenya Nyeri Kianjogu AA TOP Washed;94;Light;62;82;176.37;Taiwan;Kenya
 Colombia La Esperanza Red Bourbon;94;Light;64;82;5.59;USA;Colombia
 Guatemala Finca Al Bosque;94;Medium Light;60;78;5.59;USA;Guatemala
 Marcela Gesha Espresso;95;Light;67;88;21.6;USA;Colombia
-Colombia Paraiso 92 Double Anaerobic;95;Medium Light;52;74;215.0;Taiwan;Colombia
+Colombia Paraiso 92 Double Anaerobic;95;Medium Light;52;74;215;Taiwan;Colombia
 Colombia Sierra Morena Pink Bourbon;95;Light;60;84;7.35;USA;Colombia
 Ethiopia Growers Reserve Gesha Village Gaylee Special Fermentation;94;Light;65;85;396.48;Taiwan;Ethiopia
 Ethiopia Anaerobic Washed G1 Wild Rose S.O. Sidamo;94;Light;62;83;282.61;Taiwan;Ethiopia
@@ -326,7 +326,7 @@ Colombia Granja Paraiso-92 Castillo;94;Light;62;84;8.82;USA;Colombia
 Ethiopia Dame Dabaye;94;Medium;41;76;6.47;USA;Ethiopia
 Colombia Red Honey Geisha Campo Hermoso;95;Light;59;86;9.41;USA;Colombia
 Ethiopia Sidama Karamo Anaerobic Natural;94;Medium Light;54;78;8.52;USA;Ethiopia
-Colombia Chiroso Caturra Washed;95;Light;65;81;12.0;USA;Colombia
+Colombia Chiroso Caturra Washed;95;Light;65;81;12;USA;Colombia
 Kona SL 34 Anaerobic Washed Kona Rainforest;95;Light;65;81;52.91;USA;USA
 Colombia Yellow Geisha Granja Paraiso 92;94;Light;64;84;35.27;USA;Colombia
 Yaye Chericho Ethiopia Espresso;95;Medium Light;60;78;9.7;USA;Ethiopia
@@ -335,8 +335,8 @@ Colombia Thermal Shock Double Anaerobic Granja Paraiso Orange Gesha;95;Light;64;
 Kenya Nyeri Hill Estate AA Top Espresso;94;Medium Light;60;80;127.87;Taiwan;Kenya
 Colombia Granja Paraiso 92 Anaerobic Gesha;94;Light;62;84;396.83;Taiwan;Colombia
 Putra Gayo Sumatra Espresso;95;Medium Light;59;77;6.76;USA;Indonesia
-Colombia Paraiso 92 Geisha Double Anaerobic;95;Light;62;82;375.0;Taiwan;Colombia
-Kenya Blackberry Honey;94;Light;62;80;175.0;Taiwan;Kenya
+Colombia Paraiso 92 Geisha Double Anaerobic;95;Light;62;82;375;Taiwan;Colombia
+Kenya Blackberry Honey;94;Light;62;80;175;Taiwan;Kenya
 Putra Gayo Sumatra;94;Medium Light;59;77;6.76;USA;Indonesia
 Ethiopia Sidamo Heidenröslein Anaerobic Washed G1;94;Light;67;86;154.19;Taiwan;Ethiopia
 Kenya Gachika;94;Light;62;80;6.17;USA;Kenya
@@ -345,7 +345,7 @@ Hey Much Espresso Blend;94;Medium Light;56;80;99.21;Taiwan;Colombia
 Ethiopia Black Honey Guji Wate Lot Tabby;94;Light;63;81;149.91;Taiwan;Ethiopia
 Finca Vista Hermosa Edwin’s Reserve Guatemala;94;Light;63;81;6.27;USA;Guatemala
 Costa Rica Las Lajas Perla Negra;95;Medium Light;58;80;5.57;USA;Costa Rica
-Kenya AA Top Gicherori Espresso;95;Medium;44;62;275.0;Taiwan;Kenya
+Kenya AA Top Gicherori Espresso;95;Medium;44;62;275;Taiwan;Kenya
 Kagunyu Kenya;94;Medium Light;60;78;6.47;USA;Kenya
 Colombia Finca Milan Washed Nitro Caturra;95;Light;64;84;9.41;USA;Colombia
 Ethiopia JemJem;94;Light;62;80;7.05;USA;Ethiopia
@@ -354,7 +354,7 @@ Sumatra Pantan Musara;94;Medium Light;60;78;6.47;USA;Indonesia
 Costa Rica Candelilla Gesha;94;Light;64;84;10.29;USA;Costa Rica
 Kona Red Bourbon Anaerobic Washed Kona Rainforest;95;Light;60;82;52.91;USA;USA
 Colombia Geisha Claudia Samboni;95;Medium Light;61;80;8.82;USA;Colombia
-Ethiopia Ethiopia Limu Baby Geisha Natural;94;Medium Light;56;84;190.0;Taiwan;Ethiopia
+Ethiopia Ethiopia Limu Baby Geisha Natural;94;Medium Light;56;84;190;Taiwan;Ethiopia
 Panama Hacienda La Esmeralda Ethiopian Accessions;94;Light;65;84;35.27;USA;Panama
 Yellow;94;Light;74;100;6.32;USA;Ethiopia
 Kona Noir;95;Light;62;84;20.81;USA;USA
@@ -389,21 +389,21 @@ Nyeri Hill Kenya;94;Medium Light;56;74;6.47;USA;Kenya
 Ethiopia Guji 74110 Natural;94;Light;64;86;242.29;Taiwan;Ethiopia
 Good Tidings Sweet Holiday Blend;94;Medium Light;60;78;6.47;USA;Ethiopia
 Kona Mokka Champagne Natural;95;Light;64;86;88.18;USA;USA
-Ethiopia Banko Gotiti;94;Light;64;82;200.0;Taiwan;Ethiopia
+Ethiopia Banko Gotiti;94;Light;64;82;200;Taiwan;Ethiopia
 O-Li-A Geisha Blend;94;Light;64;86;427.31;Taiwan;Ethiopia
 Colombia Huila El Triunfo Pink Bourbon Anaerobic Washed;94;Medium Light;52;78;237.65;Taiwan;Colombia
 Costa Rica Volcán Azul Gesha Anaerobic Natural;94;Light;64;80;26.01;USA;Costa Rica
 Chang-E The Moon Goddess Espresso;94;Medium;46;70;286.6;Taiwan;Ethiopia
-GW03 Princesa Carmen Geisha;98;Medium Light;58;74;10.0;Taiwan;Panama
+GW03 Princesa Carmen Geisha;98;Medium Light;58;74;10;Taiwan;Panama
 El Salvador Finca Loma La Gloria Yellow Honey;94;Medium Light;58;78;5.88;USA;El Salvador
 Costa Rica La Laguna Lot — Reserve Series;94;Medium Light;60;78;6.76;USA;Costa Rica
 Rwanda Silverback Plus Espresso;95;Light;48;689;352.73;Taiwan;Rwanda
-Colombia El Paraiso Geisha Luna Washed;95;Light;70;85;27.0;Japan;Colombia
+Colombia El Paraiso Geisha Luna Washed;95;Light;70;85;27;Japan;Colombia
 Costa Rica Volcán Azul Gesha Anaerobic Natural;95;Light;66;82;11.46;USA;Costa Rica
 Kona Pointu®;97;Medium Light;52;72;30.84;USA;USA
 Colombia Calderon Honey;96;Medium Light;60;78;9.48;USA;Colombia
 Karen J Kona Red Bourbon;95;Medium Light;58;78;24.23;USA;USA
-Wilton Benitez Colombia Sidra;96;Light;65;83;24.0;USA;Colombia
+Wilton Benitez Colombia Sidra;96;Light;65;83;24;USA;Colombia
 Peru Gilmer Cordova #13;95;Light;64;88;8.52;USA;Peru
 Ethiopia Kayon Mountain;95;Light;64;84;7.05;USA;Ethiopia
 Kenya Gichathaini;95;Light;62;80;7.64;USA;Kenya
@@ -418,7 +418,7 @@ Gesha Village Ethiopia Gori Gesha;94;Light;62;80;198.41;Taiwan;Ethiopia
 Kenya Machakos AA Top Washed;96;Light;62;82;180.34;Taiwan;Kenya
 Indonesia Sumatra Raja Harimau Lintong Mandheling Espresso;95;Medium Light;58;77;114.64;Taiwan;Indonesia
 Ethiopia Washed Guji Bishala 23/02;95;Medium Light;60;80;154.32;Taiwan;Ethiopia
-Guatemala Washed Huehuetenango Joya Verde Espresso;94;Medium Light;58;79;97.0;Taiwan;Guatemala
+Guatemala Washed Huehuetenango Joya Verde Espresso;94;Medium Light;58;79;97;Taiwan;Guatemala
 Ethiopia Red Honey Guji Uraga Tabe Haro Wachu;94;Medium Light;58;78;149.91;Taiwan;Ethiopia
 Ethiopia Natural Sidama Bare Tamiru;94;Light;64;78;171.96;Taiwan;Ethiopia
 Colombia Wilton Benitez Thermal Shock Geisha;96;Medium Light;60;78;25.57;USA;Colombia
@@ -426,8 +426,8 @@ Colombia Wilton Benitez Thermal Shock Red Bourbon;95;Medium Light;60;78;16.75;US
 Colombia Tolima Genius;94;Light;61;83;15.43;USA;Colombia
 Colombia Wilton Benitez Thermal Shock Caturra;94;Medium Light;60;77;15.43;USA;Colombia
 Ethiopia Natural Yirgacheffe Koke Shalaye Abraham Mengiste;94;Medium Light;60;76;176.37;Taiwan;Ethiopia
-Kenya AA TOP Gicherori;97;Medium Light;60;78;275.0;Taiwan;Kenya
-Panama Carmen Geisha Washed Light Roast;95;Light;62;82;12.0;Taiwan;Panama
+Kenya AA TOP Gicherori;97;Medium Light;60;78;275;Taiwan;Kenya
+Panama Carmen Geisha Washed Light Roast;95;Light;62;82;12;Taiwan;Panama
 Colombia Luna Azul;94;Medium Light;60;76;8.23;USA;Colombia
 Mexico Los Aguacates;95;Light;65;82;12.35;USA;Mexico
 Ethiopia Arbegona Natural 74158;95;Light;64;80;220.46;Taiwan;Ethiopia
@@ -448,7 +448,7 @@ Colombia El Roble Natural Carbonic Java;95;Light;63;81;13.67;USA;Colombia
 Colombia Nestor Lasso Sidra;95;Light;62;83;14.55;USA;Colombia
 Colombia Yeast Anaerobic Washed Las Flores Bourbon Sidra;95;Light;62;81;242.5;Taiwan;Colombia
 Ecuador Cruz Loma Sidra Anaerobic Euphora Special Lot;95;Light;64;80;14.11;Taiwan;Ecuador
-Colombia El Roble Chiroso Washed;94;Medium Light;58;78;325.0;Taiwan;Colombia
+Colombia El Roble Chiroso Washed;94;Medium Light;58;78;325;Taiwan;Colombia
 Guatemala El Injerto SL28;94;Medium Light;62;79;10.58;USA;Guatemala
 Wilton Benitez Java;96;Medium Light;60;74;11.02;USA;Colombia
 HWC Holy Melody Espresso Blend;94;Medium Light;57;77;17.64;Taiwan;Ethiopia
@@ -465,7 +465,7 @@ Colombia Chili Bourbon;94;Light;62;80;9.83;USA;Colombia
 Chelbessa Ethiopia;95;Medium Light;60;76;6.17;USA;Ethiopia
 Ethiopia Yirgacheffe Gedeb Chelbesa Natural;95;Medium Light;59;76;211.64;Taiwan;Ethiopia
 Tirra Natural Costa Rica;94;Medium Light;59;77;6.47;USA;Costa Rica
-Colombia Huila Espiritu Blanc Geisha Semi-Washed Anaerobic;94;Medium Light;63;71;480.0;Taiwan;Colombia
+Colombia Huila Espiritu Blanc Geisha Semi-Washed Anaerobic;94;Medium Light;63;71;480;Taiwan;Colombia
 Costa Rica San Ramon Yeast Washed;94;Light;63;79;145.5;Taiwan;Costa Rica
 Hawai’i Island Blend Espresso;94;Medium Light;52;70;17.64;USA;USA
 Kenya Washed Kiambu Windrush AA;96;Medium Light;57;77;149.91;Taiwan;Kenya
@@ -480,13 +480,13 @@ Panama Hacienda La Esmeralda Geisha Natural;95;Medium Light;60;77;19.4;Taiwan;Pa
 Panama Hacienda La Esmeralda Geisha Washed;95;Light;64;78;17.64;Taiwan;Panama
 Grand Champion Red Bourbon Natural;96;Medium Light;52;72;30.86;USA;Unknown
 Sumatra Lintong Kardon;95;Medium Light;56;74;6.17;USA;Indonesia
-Panama Finca Don Julian Geisha Washed;94;Light;65;81;1.0;Taiwan;Panama
+Panama Finca Don Julian Geisha Washed;94;Light;65;81;1;Taiwan;Panama
 Colombia Finca La Roca;94;Medium Light;60;77;7.64;USA;Colombia
 Ethiopia YirgZ;95;Medium Light;62;78;7.94;USA;Ethiopia
 Colombia Patio Bonita;94;Light;64;80;7.94;USA;Colombia
 Ethiopia Yirgacheffe Farmgate;94;Medium Light;59;75;7.94;USA;Ethiopia
-Promise of Spring;94;Medium Light;59;76;225.0;Taiwan;Ethiopia
-Ethiopia Gesha Rebecca Natural;94;Medium Light;61;74;250.0;Taiwan;Ethiopia
+Promise of Spring;94;Medium Light;59;76;225;Taiwan;Ethiopia
+Ethiopia Gesha Rebecca Natural;94;Medium Light;61;74;250;Taiwan;Ethiopia
 Colombia Finca El Paraíso Geisha Sake;96;Light;65;82;52.91;USA;Colombia
 Tanzania Nyasi Furaha;94;Medium Light;62;74;5.59;USA;Tanzania
 Kenya Gachatha AA Top;95;Medium Light;58;74;145.5;Taiwan;Kenya
@@ -497,9 +497,9 @@ Costa Rica Las Lajas SL28 Natural;95;Light;62;80;8.82;USA;Costa Rica
 Nano Genji #12 Ethiopia;95;Medium Light;58;74;6.76;USA;Ethiopia
 Gesha Spirits;95;Light;62;80;16.93;USA;Colombia
 Panama HWC Coffee Estate Washed;94;Medium Light;59;73;35.27;Taiwan;Panama
-Colombia Fruit Maceration Series Lulo Bear;94;Light;64;80;12.0;USA;Colombia
+Colombia Fruit Maceration Series Lulo Bear;94;Light;64;80;12;USA;Colombia
 Colombia Huila Charlotte Geisha Washed;94;Light;65;79;198.41;Taiwan;Colombia
-Colombia Wilton Benitez Double Anaerobic Thermal Shock Yellow Gesha;94;Light;62;80;24.0;USA;Colombia
+Colombia Wilton Benitez Double Anaerobic Thermal Shock Yellow Gesha;94;Light;62;80;24;USA;Colombia
 More Floral;94;Light;66;80;132.28;Taiwan;Ethiopia
 Yemen Al Kawlah Special Reserve Natural;95;Medium Light;60;77;11.74;USA;Yemen
 Kona K7;95;Light;63;79;30.86;USA;USA
@@ -510,18 +510,18 @@ Ethiopia Worka Sakaro Anaerobic Natural;94;Medium Light;62;78;6.47;USA;Ethiopia
 Bale Mountain Natural Ethiopia;94;Light;64;80;6.76;USA;Ethiopia
 Ethiopia Sidama Arbegona 74158 Washed;94;Light;66;80;105.73;Taiwan;Ethiopia
 La Papaya Ecuador Geisha Natural;96;Medium Light;59;75;8.52;USA;Ecuador
-Colombia Tolima Finca El Vergel Rebel Geisha;95;Light;63;81;275.0;Taiwan;Colombia
-Colombia Buenos Aires Honey Process-Yellow Velvet Peach;95;Medium Light;60;77;260.0;Taiwan;Colombia
-Encounter of Summer;94;Light;62;80;225.0;Taiwan;Ethiopia
+Colombia Tolima Finca El Vergel Rebel Geisha;95;Light;63;81;275;Taiwan;Colombia
+Colombia Buenos Aires Honey Process-Yellow Velvet Peach;95;Medium Light;60;77;260;Taiwan;Colombia
+Encounter of Summer;94;Light;62;80;225;Taiwan;Ethiopia
 Kenya;95;Medium Dark;35;51;302.22;Taiwan;Kenya
 SL34 Dark Roast;94;Medium Dark;48;52;30.84;USA;Unknown
-Ethiopia Bench Maji Geisha Lucy Station Dark Roast;94;Medium Dark;45;52;300.0;Taiwan;Ethiopia
+Ethiopia Bench Maji Geisha Lucy Station Dark Roast;94;Medium Dark;45;52;300;Taiwan;Ethiopia
 Kenya AB Athena Plus;94;Dark;33;44;352.73;Taiwan;Kenya
 Kenya Muranga;94;Medium Dark;41;44;0.42;Taiwan;Kenya
 Costa Rica Turrialba Volcano Honey Process;94;Medium Light;59;77;143.3;Taiwan;Costa Rica
 Colombia Huila Finca El Triunfo Martha Zuñiga Pink Bourbon;94;Medium Light;58;74;9.41;USA;Colombia
 Kenya Kanwangi AA;94;Medium Light;59;80;7.05;USA;Kenya
-Ethiopia Bench Maji Geisha Lucy Station;94;Light;64;83;300.0;Taiwan;Ethiopia
+Ethiopia Bench Maji Geisha Lucy Station;94;Light;64;83;300;Taiwan;Ethiopia
 Ecuador Peñaherrera AAA;95;Medium Light;60;77;7.35;USA;Ecuador
 HWC Geisha Plus Geisha Black Espresso;95;Medium Light;54;72;19.84;Taiwan;Ethiopia
 Ethiopia Yirgacheffe Jade Lotus;94;Medium Light;59;75;8.82;Taiwan;Ethiopia
@@ -534,11 +534,11 @@ El Morito Guatemala;94;Medium Light;59;76;8.38;USA;Guatemala
 Pantan Musara Sumatra;95;Medium Light;56;78;6.76;USA;Indonesia
 Giakanja Kenya;94;Medium Light;59;79;7.35;USA;Kenya
 Ethiopia Basha Bekele;95;Light;62;86;6.76;USA;Ethiopia
-Colombia Luz Helena Salazar Wine Yeast Grape Honey;94;Medium Light;58;80;350.0;Taiwan;Colombia
+Colombia Luz Helena Salazar Wine Yeast Grape Honey;94;Medium Light;58;80;350;Taiwan;Colombia
 Ka‘ū Malolactic Natural;94;Medium Light;62;76;35.27;USA;USA
 Jade Rabbit Espresso Blend;95;Medium;46;70;286.6;Taiwan;Kenya
-Colombia Finca Paraiso Gesha Wilton Benitez;94;Light;64;84;24.0;USA;Colombia
-Colombia Finca La España Gesha;94;Light;64;84;24.0;USA;Colombia
+Colombia Finca Paraiso Gesha Wilton Benitez;94;Light;64;84;24;USA;Colombia
+Colombia Finca La España Gesha;94;Light;64;84;24;USA;Colombia
 Colombia Huila La Esperanza Pink Bourbon Honey;94;Medium Light;62;76;167.55;Taiwan;Colombia
 Ethiopia Halo Beriti Single-Origin Espresso;95;Medium Light;56;74;7.05;USA;Ethiopia
 Ethiopia Gora Kone;94;Light;62;84;6.91;USA;Ethiopia
@@ -568,16 +568,16 @@ Espresso Giusto;94;Medium Light;54;72;4.98;USA;Mexico
 Golden Parrot Blend Espresso;94;Medium Light;58;78;92.59;Taiwan;Colombia
 Galaxy Gesha Quindio Colombia Edwin Noreña;95;Light;65;86;11.3;USA;Colombia
 Ka‘ū JN Farms Malolactic Honey;95;Light;62;84;35.27;USA;USA
-Colombia Finca El Paraiso Rose Tea;94;Light;64;88;500.0;Taiwan;Colombia
+Colombia Finca El Paraiso Rose Tea;94;Light;64;88;500;Taiwan;Colombia
 Colombia Monteblanco Rodrigo Sanchez Carbonic Maceration;94;Light;56;86;7.73;USA;Colombia
 Colombia Cauca Granja Paraiso 92 – Pink Bourbon;94;Light;67;99;10.29;USA;Colombia
 Ethiopia Gatta Anaerobic;94;Light;65;92;10.14;USA;Ethiopia
-Colombia Osmanthus Bouquet Granja Paraiso 92;94;Light;64;82;28.0;South Korea;Colombia
+Colombia Osmanthus Bouquet Granja Paraiso 92;94;Light;64;82;28;South Korea;Colombia
 Colombia Granja Paraíso-92- Papayo Kōji;95;Light;64;84;35.27;USA;Colombia
 Ethiopia Dinkalem Ademe Wush Wush;95;Light;62;84;8.23;USA;Ethiopia
-Colombia Pink Bourbon;95;Light;64;82;12.0;USA;Colombia
+Colombia Pink Bourbon;95;Light;64;82;12;USA;Colombia
 Kenya Kiambu Mandela Estate AA Washed Process;94;Medium Light;60;77;153.88;Taiwan;Kenya
-Costa Rica Volcán Azul Geisha Yeast-Washed;94;Light;62;80;349.0;Taiwan;Costa Rica
+Costa Rica Volcán Azul Geisha Yeast-Washed;94;Light;62;80;349;Taiwan;Costa Rica
 Ethiopia Yirgacheffe Adame G1 Natural;94;Light;63;79;242.5;Taiwan;Ethiopia
 Kenya Gichathaini;94;Light;64;82;7.35;USA;Kenya
 Guatemala Retiro del Quisaya Natural Process;94;Medium Light;59;78;5.57;USA;Guatemala
@@ -589,7 +589,7 @@ Ethiopia Kayon Mountain;94;Light;64;82;6.16;USA;Ethiopia
 Panama Finca Las Nubes Geisha Microlot;94;Medium Light;60;77;6.61;USA;Panama
 Guatemala El Milagro Bourbon Especial;95;Medium Light;60;78;8.23;USA;Guatemala
 Costa Rica William Mora;94;Light;65;84;8.23;USA;Costa Rica
-Ethiopia Duromina Agaro Gera;94;Light;62;81;5.0;USA;Ethiopia
+Ethiopia Duromina Agaro Gera;94;Light;62;81;5;USA;Ethiopia
 Winter 2022 Allocation Colombia;94;Light;62;80;29.39;USA;Colombia
 Laura’s Reserve SL34;96;Medium Light;60;80;30.84;USA;Unknown
 El Salvador 2022 COE#17 El Mirador Washed Gesha;96;Medium Light;58;78;440.92;Taiwan;El Salvador
@@ -607,26 +607,26 @@ Colombia Granja Paraíso Java P14;95;Light;64;82;44.09;USA;Colombia
 El Salvador Finca El Retiro Sudan Rume Natural;94;Medium Light;62;78;6.96;Taiwan;El Salvador
 Ethiopia Hayissa Olocho Lot 6;94;Light;61;82;9.52;USA;Ethiopia
 Nyeri Hill Kenya;94;Medium Light;58;80;6.47;USA;Kenya
-Ethiopia COE #8 Sidama Arbegona Muluneh Tute Galcho 74158 Natural;95;Light;63;82;850.0;Taiwan;Ethiopia
+Ethiopia COE #8 Sidama Arbegona Muluneh Tute Galcho 74158 Natural;95;Light;63;82;850;Taiwan;Ethiopia
 Chelbessa Ethiopia;94;Medium Light;60;78;5.88;USA;Ethiopia
 Ka’u Tropical Punch;94;Medium Light;60;78;22.05;USA;USA
-Ethiopia Gesha Village Illubabor Forest Lot 22/043 (Single-Terroir) Natural Process;94;Light;64;84;299.0;Taiwan;Ethiopia
+Ethiopia Gesha Village Illubabor Forest Lot 22/043 (Single-Terroir) Natural Process;94;Light;64;84;299;Taiwan;Ethiopia
 Ethiopia Gera Genji Challa;94;Medium Light;59;77;8.23;USA;Ethiopia
 Kenya Gotomboya Peaberry;94;Medium Light;59;77;7.94;USA;Kenya
-Panama Hartmann Estate Chicho Gallo Amaro Gayo Natural BOP#1;94;Medium Light;60;78;549.0;Taiwan;Panama
+Panama Hartmann Estate Chicho Gallo Amaro Gayo Natural BOP#1;94;Medium Light;60;78;549;Taiwan;Panama
 Kenya Ichamama;94;Medium Light;59;77;8.23;USA;Kenya
 Ethiopia Uchoro Nansebo Washed;95;Light;60;82;7.94;USA;Ethiopia
 Nekisse Phantom Roasting;95;Light;64;83;433.33;China;Ethiopia
 Colombia Finca Samboni Gesha Anaerobic Natural;94;Medium Light;62;78;8.82;USA;Colombia
 Kambera Inari Roasting;94;Light;62;80;353.33;China;Panama
 Colombia Don Correa Gesha;94;Light;62;80;9.69;USA;Colombia
-Ethiopia BergWu Maker Series Yirgacheffe Wuri G1 Lot MW21/02;94;Medium Light;62;78;64.0;China;Ethiopia
-Mexico Finca Santa Cruz COE#1b;94;Light;64;84;498.0;China;Mexico
+Ethiopia BergWu Maker Series Yirgacheffe Wuri G1 Lot MW21/02;94;Medium Light;62;78;64;China;Ethiopia
+Mexico Finca Santa Cruz COE#1b;94;Light;64;84;498;China;Mexico
 Wilton Benitez Geisha;95;Medium Light;59;81;11.02;USA;Colombia
 Colombia Cerro Azul Geisha;95;Light;62;80;26.01;USA;Colombia
 Yirgacheffe Mengesha Natural;94;Medium Light;60;77;6.03;USA;Ethiopia
 Panama Geisha Finca Debra Symbiosis;94;Light;62;80;39.68;USA;Panama
-Panama Geisha Finca Debra Echo;94;Light;64;80;20.0;USA;Panama
+Panama Geisha Finca Debra Echo;94;Light;64;80;20;USA;Panama
 Ethiopia Hamasho Washed;95;Light;62;81;7.35;USA;Ethiopia
 Ethiopia Idido Anaerobic Natural;95;Medium Light;61;80;11.76;USA;Ethiopia
 Mexico Cup of Excellence #7;94;Light;62;80;11.76;USA;Mexico
@@ -653,12 +653,12 @@ Finca Santa Isabel;94;Medium Light;58;76;3.82;Guatemala;Guatemala
 Colombia Castillo Fruit Maceration Series (Passionfruit);95;Medium Light;58;78;11.02;USA;Colombia
 Colombia Castillo Fruit Maceration Series (Strawberry);94;Medium Light;61;78;11.02;USA;Colombia
 Colombia Castillo Fruit Maceration Series (Peach);94;Medium Light;60;77;11.02;USA;Colombia
-Full Moon Espresso;95;Medium;48;64;275.0;Taiwan;Costa Rica
+Full Moon Espresso;95;Medium;48;64;275;Taiwan;Costa Rica
 Ethiopia Sidama Tamiru Tadesse Anaerobic Natural Special Auction Lot;95;Light;62;80;8.82;Taiwan;Ethiopia
 Colombia La Esperanza 100% Geisha Hanashaku;94;Light;65;81;440.92;Taiwan;Colombia
 Kona Extra Fancy;95;Medium Light;58;74;13.52;USA;USA
 Costa Rica Las Lajas Perla Negra;94;Medium Light;57;76;5.57;USA;Costa Rica
-Ecuador COE 1st place Arashi Typica Mejorado Washed;96;Light;62;80;4000.0;Taiwan;Ecuador
+Ecuador COE 1st place Arashi Typica Mejorado Washed;96;Light;62;80;4000;Taiwan;Ecuador
 Ethiopia Getu Kurume Natural;95;Light;64;86;202.82;Taiwan;Ethiopia
 Fruit of the Goddess Espresso Blend;94;Medium Light;52;70;121.15;Taiwan;Ethiopia
 Papua New Guinea Wahgi Valley Sigri Estate Peaberry;94;Medium Light;57;77;242.29;Taiwan;Papua New Guinea
@@ -668,21 +668,21 @@ Ethiopia Gera Estate Anaerobic Natural;95;Medium Light;60;78;6.47;USA;Ethiopia
 Colombia Cauca Finca El Paraiso Double-Anaerobic Flor Lychee;95;Medium Light;60;78;424.6;Taiwan;Colombia
 Costa Rica Cerro Dragon Geisha Honey;94;Medium Light;59;78;8.82;USA;Costa Rica
 Guatemala Washed El Injerto EI05 Mocca;96;Light;61;81;1058.2;Taiwan;Guatemala
-Taiwan Natural Alishan Zhuo-Wu Geisha;95;Medium Light;60;78;1200.0;Taiwan;Taiwan
+Taiwan Natural Alishan Zhuo-Wu Geisha;95;Medium Light;60;78;1200;Taiwan;Taiwan
 Ethiopia Natural Guji Uraga Tome 74110 Lot K06;95;Light;63;85;143.3;Taiwan;Ethiopia
 Kenya Gathaithi AA;94;Medium Light;58;76;5.6;USA;Kenya
 Ethiopia Guji Uraga Tobutu Tuta G1 Experimental LOT 181NA2021;95;Light;72;90;12.5;Japan;Ethiopia
-Colombia Jardines del Eden Pink Bourbon Wine Yeast Honey;94;Light;64;86;12.0;Canada;Colombia
+Colombia Jardines del Eden Pink Bourbon Wine Yeast Honey;94;Light;64;86;12;Canada;Colombia
 Colombia Cerro Azul Enano;94;Medium Light;60;77;7.64;USA;Colombia
 Peru Incahuasi;94;Medium Light;58;78;7.64;USA;Peru
 Reina de la Asuncion Ecuador;94;Medium Light;58;74;5.88;USA;Ecuador
-Ethiopia Guji Uraga More Floral Kudume Washed;95;Light;65;82;275.0;Taiwan;Ethiopia
-Ethiopia Guji Uraga More Floral Kudume Natural;94;Medium Light;62;77;275.0;Taiwan;Ethiopia
+Ethiopia Guji Uraga More Floral Kudume Washed;95;Light;65;82;275;Taiwan;Ethiopia
+Ethiopia Guji Uraga More Floral Kudume Natural;94;Medium Light;62;77;275;Taiwan;Ethiopia
 Kenya Nyeri Hill;94;Medium Light;60;78;6.45;USA;Kenya
 Kenya AA TOP Nairobi Rose;94;Medium Light;60;77;176.37;Taiwan;Kenya
 Kahiko;96;Medium Light;56;74;21.14;USA;Unknown
 Kenya Ndumberi Peaberry;94;Medium Light;58;77;6.8;USA;Kenya
-Taiwan Alishan Espresso Pacamara Natural;94;Medium;48;67;1000.0;Taiwan;Taiwan
+Taiwan Alishan Espresso Pacamara Natural;94;Medium;48;67;1000;Taiwan;Taiwan
 Ethiopia Gera Reserve Anaerobic Natural;94;Light;62;84;6.88;USA;Ethiopia
 Kenya Ngaita Peaberry;94;Medium Light;60;77;6.8;USA;Kenya
 Kenya AB;94;Light;64;84;326.09;Taiwan;Kenya
@@ -699,8 +699,8 @@ Finca Cerro Azul Aces Lot;94;Medium Light;61;79;14.22;USA;Mexico
 Gachatha Kenya;96;Medium Light;59;77;7.05;USA;Kenya
 Geisha Spirit;94;Medium Light;58;78;11.61;USA;Colombia
 Colombia Sudan Rume;95;Light;64;82;35.27;USA;Colombia
-El Duende Peru;94;Medium Light;58;76;5.0;USA;Peru
-Ethiopia Yirgacheffe G1 Idido Natural;95;Light;65;85;275.0;Taiwan;Ethiopia
+El Duende Peru;94;Medium Light;58;76;5;USA;Peru
+Ethiopia Yirgacheffe G1 Idido Natural;95;Light;65;85;275;Taiwan;Ethiopia
 Colombia Pink Bourbon Filadelfia;95;Light;64;82;9.17;USA;Colombia
 Ethiopia Kayon Mountain;94;Medium Light;60;78;5.88;USA;Ethiopia
 Kenya;95;Medium Light;62;77;264.32;Taiwan;Kenya
@@ -717,11 +717,11 @@ Panama Auromar Camilina Geisha Natural;95;Medium Light;60;78;44.09;USA;Panama
 Tio Conejo Colombia;94;Medium Light;58;76;7.94;USA;Colombia
 Panama Auromar Ironman Geisha Washed Process;94;Medium Light;60;78;44.09;USA;Panama
 Cruz Loma;94;Medium Light;57;75;11.02;USA;Ecuador
-Panama Elida Washed Gesha;95;Light;64;84;40.0;USA;Panama
+Panama Elida Washed Gesha;95;Light;64;84;40;USA;Panama
 El Salvador Finca La Esperanza;94;Medium Light;62;78;6.09;Taiwan;El Salvador
 Panama Hacienda La Esmeralda Super Mario Geisha Yeast Washed;95;Medium Light;60;77;2083.33;Taiwan;Panama
-Quartet Kaffe Blend No.10;94;Medium Light;56;72;250.0;Taiwan;Panama
-Ethiopia Anasora Extended Natural Special Lot;94;Medium Light;60;76;440.0;Taiwan;Ethiopia
+Quartet Kaffe Blend No.10;94;Medium Light;56;72;250;Taiwan;Panama
+Ethiopia Anasora Extended Natural Special Lot;94;Medium Light;60;76;440;Taiwan;Ethiopia
 Ethiopia Honey Yirgacheffe Idido G1;95;Medium Light;60;80;154.32;Taiwan;Ethiopia
 Taiwan Natural Alishan Ching-Ye Farm;94;Medium Light;58;76;485.01;Taiwan;Taiwan
 Hawaii Ka‘ū Bourbon Anaerobic Natural;95;Medium Light;57;74;26.46;USA;USA
@@ -733,8 +733,8 @@ Colombia Geisha Cordillera;95;Medium Light;58;78;28.66;USA;Colombia
 Ethiopia Raro Boda;94;Medium Light;56;74;6.47;USA;Ethiopia
 Costa Rica Bounty Gesha;94;Medium Light;60;78;11.6;USA;Costa Rica
 Panama Static Gesha Natural;95;Medium Light;58;77;13.23;USA;Panama
-Panama La Mula Geisha Washed;95;Light;60;82;3000.0;Taiwan;Panama
-Costa Rica San Gabriel SL28 Anaerobic Natural;94;Medium Light;58;76;300.0;Taiwan;Costa Rica
+Panama La Mula Geisha Washed;95;Light;60;82;3000;Taiwan;Panama
+Costa Rica San Gabriel SL28 Anaerobic Natural;94;Medium Light;58;76;300;Taiwan;Costa Rica
 Burundi Kibingo Intenso;94;Medium Light;57;74;6.17;USA;Burundi
 Ecuador Peñaherrera AAA;95;Medium Light;58;76;7.35;USA;Ecuador
 Panama Hacienda La Esmeralda Porton 5N49 Gesha Natural;95;Medium Light;60;77;28.66;USA;Panama
@@ -754,7 +754,7 @@ Ethiopia Washed Shakisso Mormora 74112;95;Medium Light;58;78;143.3;Taiwan;Ethiop
 Tang Bohu Espresso Blend;95;Medium;45;70;286.6;Taiwan;Costa Rica
 Colombia Quindio Anaerobic Natural;94;Medium Light;60;78;8.82;USA;Colombia
 Colombia Tres Dragones Natural;94;Medium Light;58;76;7.35;USA;Colombia
-Colombia Finca Jardines del Eden Ice Fermentation Natural;94;Medium Light;58;74;500.0;Taiwan;Colombia
+Colombia Finca Jardines del Eden Ice Fermentation Natural;94;Medium Light;58;74;500;Taiwan;Colombia
 Honduras Natural San Vicente Belarmino Contreras Pacas;94;Medium Light;58;78;121.25;Taiwan;Honduras
 Chasing Horizon Natural Espresso;95;Medium;48;64;352.73;Taiwan;Ethiopia
 Supernatural;95;Medium Light;56;74;5.42;USA;Ethiopia
@@ -767,7 +767,7 @@ Peru Gesha;94;Medium Light;60;77;8.82;USA;Peru
 Ecuador Loja Hacienda La Papaya Bourbon Sidra 168hr Anaerobic Natural;95;Light;64;84;292.04;Taiwan;Ecuador
 Panama Finca Deborah Afterglow Geisha Natural;95;Light;62;80;474.29;China;Panama
 Colombia Exótico De Altura;94;Medium Light;54;74;5.29;USA;Colombia
-Ethiopia Dawencho 74110 Natural Espresso;94;Medium Light;58;77;620.0;Taiwan;Ethiopia
+Ethiopia Dawencho 74110 Natural Espresso;94;Medium Light;58;77;620;Taiwan;Ethiopia
 Kenya Nyeri Yerihar AA Top Lot 21/01;94;Medium Light;57;78;204.55;Taiwan;Kenya
 Colombia Wush Wush Dynamic Natural;95;Light;75;93;16.5;Japan;Colombia
 Rwanda Gatare;94;Medium Light;58;80;6.47;USA;Rwanda
@@ -780,7 +780,7 @@ Peru Amazonas Los Santos Geisha Natural;95;Light;64;80;418.5;Taiwan;Peru
 Ethiopia Odola Washed;95;Light;60;82;5.57;USA;Ethiopia
 Minanga Village Sulawesi;94;Medium Light;54;72;7.05;USA;Indonesia
 Ka‘ū Tropical Punch Washed;94;Medium Light;58;74;22.05;USA;USA
-Kenya Peaberry Top Hill Farm Espresso;95;Medium;45;58;275.0;Taiwan;Kenya
+Kenya Peaberry Top Hill Farm Espresso;95;Medium;45;58;275;Taiwan;Kenya
 Ethiopia Belayneh Bariso Natural;95;Medium Light;58;76;5.73;USA;Ethiopia
 Kona SL34 Champagne Natural Uluwehi Farm;94;Medium Light;57;74;26.46;USA;USA
 Yemen Al Mashtal Al Burhani;95;Medium Light;58;74;26.46;USA;Yemen
@@ -800,13 +800,13 @@ Colombia Ibague Tolima;94;Light;64;80;7.64;USA;Colombia
 Kenya Karatu;94;Medium Light;60;76;6.91;Kenya;Kenya
 Ecuador Taza Dorada Finca Cruz Loma;96;Medium Light;60;77;123.46;USA;Ecuador
 Kona Bourbon Champagne Natural Uluwehi Farm;95;Medium Light;57;74;26.46;USA;USA
-Panama Hacienda La Esmeralda Geisha Washed;95;Medium;46;60;800.0;Taiwan;Panama
-Peru Garden of Eden Farcent Geisha Anaerobic Washed;94;Medium Light;62;78;700.0;Taiwan;Peru
+Panama Hacienda La Esmeralda Geisha Washed;95;Medium;46;60;800;Taiwan;Panama
+Peru Garden of Eden Farcent Geisha Anaerobic Washed;94;Medium Light;62;78;700;Taiwan;Peru
 Pointu Laurina;95;Medium;46;60;29.08;USA;Unknown
-Ecuador Finca Cruz Loma;95;Medium Dark;40;54;3600.0;Taiwan;Ecuador
+Ecuador Finca Cruz Loma;95;Medium Dark;40;54;3600;Taiwan;Ecuador
 Aged Sumatra Semiga;94;Medium Dark;40;50;8.82;USA;Indonesia
 Indonesia Sumatra Kerinci Valley;94;Medium;47;60;7.2;USA;Indonesia
-Ka’u Classic Dark;94;Medium;47;61;10.05;USA;USa
+Ka’u Classic Dark;94;Medium;47;61;10.05;USA;USA
 Sumatra Boru Batak;95;Medium Light;57;79;6.17;USA;Indonesia
 Barokah Honey Sumatra;95;Medium Light;58;80;5.59;USA;Indonesia
 Colombia Finca La Primavera Sidra;96;Light;64;82;14.11;USA;Colombia
@@ -881,7 +881,7 @@ Panama Finca Mi Finquita Geisha Afrodita Natural;96;Medium Light;59;81;1102.29;T
 Panama El Burro Estate Natural Gesha;95;Medium Light;58;77;0.88;Taiwan;Panama
 Panama La Viuda Natural Geisha 4 Hermanos;94;Light;60;84;0.88;Taiwan;Panama
 Colombia Huila Finca Monteblanco Rodrigo Sanchez;94;Medium Light;58;78;87.94;China;Colombia
-Ninety Plus Panama Gesha Estate MS Joseph Brodsky 2307;95;Medium Light;58;82;560.0;China;Panama
+Ninety Plus Panama Gesha Estate MS Joseph Brodsky 2307;95;Medium Light;58;82;560;China;Panama
 Espresso;94;Medium Light;56;80;27.76;USA;Unknown
 Kenya Kainamui AB;94;Medium Light;58;76;6.6;USA;Kenya
 Kona Mocca®;95;Medium Light;57;78;39.66;USA;USA
@@ -902,15 +902,15 @@ Ethiopia Shantawene Natural;95;Medium Light;60;76;6.47;USA;Ethiopia
 Ethiopia Buno Dambi Uddo;94;Light;65;83;7.35;USA;Ethiopia
 Ethiopia Worka Sakaro Anaerobic Natural;94;Medium;56;64;4.7;USA;Ethiopia
 Ethiopia Durato Bombe Natural;94;Light;64;80;6.47;USA;Ethiopia
-SÖT Coffee Roaster Colombia Wush Wush Dynamic Natural;96;Light;76;92;1680.0;Japan;Colombia
+SÖT Coffee Roaster Colombia Wush Wush Dynamic Natural;96;Light;76;92;1680;Japan;Colombia
 Colombia Trujillo Experimental Process;94;Medium Light;57;77;7.35;USA;Colombia
 Colombia La Siria Geisha;96;Medium Light;60;78;83.77;USA;Colombia
 Guatemala Santa Felisa Wild Yeast Natural Gesha;96;Light;62;88;330.69;Taiwan;Guatemala
 Colombia Granja La Esperanza Las Margaritas Gesha Honey;95;Light;62;80;26.46;USA;Colombia
 Tanzania Acacia Hills Gesha Peaberry;95;Medium Light;62;78;70.55;USA;Tanzania
 Colombia La Palma Y El Tucán Gesha Natural;94;Medium Light;56;72;35.27;USA;Colombia
-Peru Yanesha Geisha Washed Anaerobic;94;Medium Light;59;77;800.0;Taiwan;Peru
-Guatemala Geisha;94;Light;62;80;500.0;Taiwan;Guatemala
+Peru Yanesha Geisha Washed Anaerobic;94;Medium Light;59;77;800;Taiwan;Peru
+Guatemala Geisha;94;Light;62;80;500;Taiwan;Guatemala
 Costa Rica La Rejolla Washed Geisha;94;Medium Light;58;80;11.02;USA;Costa Rica
 Bekele Heto Natural Ethiopia;95;Medium Light;58;80;5.59;USA;Ethiopia
 El Salvador El Matazano Pacamara;95;Medium Light;60;77;6.17;USA;El Salvador
@@ -918,7 +918,7 @@ Ethiopia Guji Mormora Organic Natural;94;Light;62;80;5.57;USA;Ethiopia
 Chelbesa Ethiopia;95;Medium Light;58;78;7.94;USA;Ethiopia
 Colombia La Riviera Sudan Rume;94;Medium Light;58;76;10.57;USA;Colombia
 Alaka Ethiopia;94;Medium Light;62;78;5.29;USA;Ethiopia
-Ethiopia Guji Uraga Tebe Burka Natural G1;94;Light;64;82;220.0;Taiwan;Ethiopia
+Ethiopia Guji Uraga Tebe Burka Natural G1;94;Light;64;82;220;Taiwan;Ethiopia
 Sweet Kenya J36 Espresso;95;Medium Light;52;76;333.33;Taiwan;Kenya
 Acatenango Santa Felisa Wild Yeast Natural Sudan Rume Full Moon Lot 4;94;Medium Light;60;76;264.55;Taiwan;Guatemala
 Guatemala Finca El General Slow Dry 6;94;Medium Light;58;78;165.34;Taiwan;Guatemala
@@ -939,9 +939,9 @@ Elida Estate ASD Natural Catuai 15;94;Medium Light;57;75;8.82;USA;Panama
 Yemen Sheba Auction Lot 1: Wadi Al Mahjr;95;Medium Light;56;78;440.92;Taiwan;Yemen
 Yemen Port of Mokha Al-Jabal;94;Medium Light;58;76;21.16;USA;Yemen
 Colombia La Esperanza Potosí Anaerobic Process;94;Medium Light;57;73;5.57;USA;Colombia
-Panama Hacienda La Esmeralda Ethiopia Accessions;95;Light;62;82;22.0;USA;Panama
+Panama Hacienda La Esmeralda Ethiopia Accessions;95;Light;62;82;22;USA;Panama
 Guji Hamasho Washed;94;Medium Light;56;82;7.33;USA;Ethiopia
-Kona Red Wine Process;94;Medium Light;56;76;22.0;USA;USA
+Kona Red Wine Process;94;Medium Light;56;76;22;USA;USA
 Candelilla Geisha Natural;95;Light;62;80;9.48;USA;Costa Rica
 Kiamugumo Kenya;95;Medium Light;58;80;6.17;USA;Kenya
 Ethiopia Sidama Ardi;95;Light;64;86;5.59;USA;Ethiopia
@@ -951,15 +951,15 @@ Ethiopia Gedeb Worka Wuri;95;Light;62;80;7.64;USA;Ethiopia
 Mama Cata Mokkita;95;Medium Light;54;72;23.52;USA;Panama
 Kenya Karatina;94;Medium Light;56;74;6.91;USA;Kenya
 La Reforma El Salvador Natural;94;Medium Light;58;77;6.03;USA;El Salvador
-Panama Geisha;94;Light;62;82;712.0;Taiwan;Panama
-Guatemala COE-NW#2 Sierra Roja Geisha Washed;96;Medium Light;60;80;600.0;Taiwan;Guatemala
+Panama Geisha;94;Light;62;82;712;Taiwan;Panama
+Guatemala COE-NW#2 Sierra Roja Geisha Washed;96;Medium Light;60;80;600;Taiwan;Guatemala
 Guatemala La Voz;94;Medium Light;58;76;6.17;USA;Guatemala
 Cafe Granja La Esperanza Sudan Rume;94;Medium Light;59;77;17.64;China;Colombia
 Ethiopia Guji Laayoo Natural;95;Light;64;84;7.33;USA;Ethiopia
 Colombia Cafe Granja La Esperanza Sidra Natural;95;Medium Light;58;80;25.71;USA;Colombia
 Kenya Gatomboya;94;Medium Light;56;76;7.05;USA;Kenya
 Nicaragua La Bendicion Yellow Maracaturra Natural;94;Light;64;86;8.79;USA;Nicaragua
-Kona Lactic Washed;94;Medium Light;60;76;22.0;USA;USA
+Kona Lactic Washed;94;Medium Light;60;76;22;USA;USA
 Kenya Kamwangi;95;Medium Light;58;78;7.05;USA;Kenya
 Ethiopia Bench Maji Gesha Village Oma Geisha 1931 Lot 55 Natural;94;Light;64;86;668.14;Taiwan;Ethiopia
 Ethiopia Guji Natural Euphora Special Lot;94;Medium Light;59;79;141.09;Taiwan;Ethiopia
@@ -967,8 +967,8 @@ Sudan Rume;95;Medium Light;57;74;13.23;USA;Colombia
 Testi Ayla Double Ethiopia;97;Light;64;86;16.15;USA;Ethiopia
 Primavera Colombia Espresso;94;Medium Light;58;78;5.59;USA;Colombia
 Gigesa Ethiopia;94;Light;62;80;5.29;USA;Ethiopia
-Espresso Blend;94;Medium;51;64;200.0;Taiwan;Unknown
-Classic MK Blend;94;Medium Dark;36;48;200.0;Taiwan;Colombia
+Espresso Blend;94;Medium;51;64;200;Taiwan;Unknown
+Classic MK Blend;94;Medium Dark;36;48;200;Taiwan;Colombia
 Chocolate Lover’s Espresso;94;Medium Dark;39;53;133.33;Taiwan;Colombia
 Golden Parrot Blend;95;Medium;50;67;92.59;Taiwan;Ethiopia
 Bull Demon King;96;Medium Dark;35;48;242.5;Taiwan;Ethiopia
@@ -976,7 +976,7 @@ Tanzania Gesha Peaberry;95;Light;62;80;66.09;USA;Tanzania
 Ethiopia Natural Guji D Minor 21/01;95;Light;64;84;165.34;Taiwan;Ethiopia
 Ethiopia Hambela Yellow Honey James Selection;95;Light;62;80;180.78;Taiwan;Ethiopia
 Costa Rica Black Honey;94;Medium Light;58;76;121.25;Taiwan;Costa Rica
-Ethiopia Guji Hambela Kudume Yellow Honey;94;Medium Light;58;76;280.0;Taiwan;Ethiopia
+Ethiopia Guji Hambela Kudume Yellow Honey;94;Medium Light;58;76;280;Taiwan;Ethiopia
 Ethiopia Sidamo Bensa Mirado Natural;94;Light;64;80;220.26;Taiwan;Ethiopia
 Costa Rica La Florida Red Honey Espresso;95;Medium Light;54;78;132.28;Taiwan;Costa Rica
 Ethiopia Yirgacheffe Botabaa Washed G1 21/01;94;Medium Light;60;80;127.87;Taiwan;Ethiopia
@@ -986,9 +986,9 @@ Kabiufa Papua New Guinea;94;Light;60;82;4.7;USA;Papua New Guinea
 Ethiopia Buku Abela;94;Medium Light;60;78;154.19;Taiwan;Ethiopia
 Colombia Finca Santa Maria;95;Medium Light;58;78;5.29;USA;Colombia
 Yemen Mocha Haimi;94;Light;63;83;15.43;USA;Yemen
-Costa Rica Hacienda Tobosi Villalobos Anaerobic Natural;94;Light;62;80;300.0;Taiwan;Costa Rica
+Costa Rica Hacienda Tobosi Villalobos Anaerobic Natural;94;Light;62;80;300;Taiwan;Costa Rica
 Colombia Wush Wush;94;Medium;56;64;7.94;USA;Colombia
-Brazil Gauriroba Natural;94;Light;82;104;2980.0;Japan;Brazil
+Brazil Gauriroba Natural;94;Light;82;104;2980;Japan;Brazil
 Rwanda “Silverback Returns”;94;Medium Dark;42;58;352.73;Taiwan;Rwanda
 Gigesa Natural;95;Medium Light;58;78;5.29;USA;Ethiopia
 El Jocote Natural;95;Medium Light;60;78;7.05;USA;Costa Rica
@@ -1004,7 +1004,7 @@ Nicaragua Yellow Pacamara Natural;94;Light;62;80;26.41;USA;Nicaragua
 Ethiopia West Arsi Nensebo Natural G1;95;Medium Light;52;70;7.05;Taiwan;Ethiopia
 Ethiopia Sidama Bona Sweet Natural;94;Light;62;80;5.88;Taiwan;Ethiopia
 Congo Square;94;Medium Light;56;74;5.88;USA;Democratic Republic of the Congo
-Rwanda Rulindo Tumba;94;Medium Light;60;78;5.0;USA;Rwanda
+Rwanda Rulindo Tumba;94;Medium Light;60;78;5;USA;Rwanda
 Tanzania Sambewe;94;Medium Light;58;78;4.98;USA;Tanzania
 Rwanda Kinini Village Natural;94;Medium Light;58;78;6.32;USA;Rwanda
 Tanzania Peaberry;94;Medium Light;53;71;3.97;USA;Tanzania
@@ -1014,10 +1014,10 @@ Ethiopia Tibe Haro Uraga;95;Medium Light;58;78;6.02;USA;Ethiopia
 Taiwan Natural Alishan TFU’YA Kakalove Lot;95;Medium Light;58;78;617.28;Taiwan;Taiwan
 Ethiopia Natural Guji Blue Donkey 21/01;95;Light;60;82;143.3;Taiwan;Ethiopia
 Kenya Nyeri Gachatha Washed AB;94;Medium Light;58;76;143.3;Taiwan;Kenya
-Ethiopia Yirgacheffe G1 Mulugeta Tsige;95;Medium Light;60;78;250.0;Taiwan;Ethiopia
-Kenya AA Top Gathambi Station;94;Medium Light;58;76;275.0;Taiwan;Kenya
-Ethiopia Guji Gerba Station G1 Natural Espresso;94;Medium Light;56;76;225.0;Taiwan;Ethiopia
-Ethiopia Keramo Village;94;Medium Light;60;77;10.0;USA;Ethiopia
+Ethiopia Yirgacheffe G1 Mulugeta Tsige;95;Medium Light;60;78;250;Taiwan;Ethiopia
+Kenya AA Top Gathambi Station;94;Medium Light;58;76;275;Taiwan;Kenya
+Ethiopia Guji Gerba Station G1 Natural Espresso;94;Medium Light;56;76;225;Taiwan;Ethiopia
+Ethiopia Keramo Village;94;Medium Light;60;77;10;USA;Ethiopia
 Ethiopia Uraga Washed G1;94;Medium Light;58;78;5.28;USA;Ethiopia
 Kenya Karindudu AA;95;Medium Light;56;76;6.47;USA;Kenya
 Colombia Cardona Natural;94;Light;62;80;7.35;USA;Colombia
@@ -1026,19 +1026,19 @@ Maypop;94;Medium Light;56;72;7.35;Colombia;Colombia
 La Soledad Colombia;94;Medium Light;58;80;7.94;USA;Colombia
 Colombia Huila Acevedo El Paraiso;94;Medium Light;57;77;7.35;USA;Colombia
 Love of Desolate;96;Medium Light;58;80;220.26;Taiwan;Costa Rica
-Blend No.7 Berrichee;95;Medium Light;54;74;210.0;Taiwan;Mexico
+Blend No.7 Berrichee;95;Medium Light;54;74;210;Taiwan;Mexico
 Ethiopia Niguse Gemeda Mude Natural;94;Medium Light;60;78;396.48;Taiwan;Ethiopia
-La Estrella Carbonic Geisha Reserve;95;Medium Light;59;77;20.0;USA;Colombia
+La Estrella Carbonic Geisha Reserve;95;Medium Light;59;77;20;USA;Colombia
 Ethiopia Guji Wush Wush Anaerobic Natural;95;Medium Light;57;77;246.7;Taiwan;Ethiopia
 Ethiopia Guji Wush Wush;95;Medium Light;58;77;7.33;USA;Ethiopia
 Tres Dragones Colombia;94;Medium Light;60;78;7.35;USA;Colombia
 Panama Elida Estate Catuaí Natural ASD;94;Medium Light;58;76;7.27;USA;Panama
 Ethiopia Yirgacheffe Israel Degfa Natural Gr.1;94;Medium Light;56;76;198.24;Taiwan;Ethiopia
-Panama Elida Estate Washed;96;Medium Light;59;77;40.0;USA;Panama
+Panama Elida Estate Washed;96;Medium Light;59;77;40;USA;Panama
 Kona Maragogype Natural;94;Medium Light;58;82;26.41;USA;USA
 Kenya Washed Nakuru Gachombe Factory AB;95;Medium Light;56;78;92.59;Taiwan;Kenya
 Ethiopia Natural Guji Hambella Wate Peaberry;95;Light;62;84;165.34;Taiwan;Ethiopia
-Ethiopia Guji Shakiso Dambi Udo Natural Anaerobic;94;Medium Light;59;77;160.0;Taiwan;Ethiopia
+Ethiopia Guji Shakiso Dambi Udo Natural Anaerobic;94;Medium Light;59;77;160;Taiwan;Ethiopia
 Ethiopia Natural Guji;94;Medium Light;56;76;92.59;Taiwan;Ethiopia
 Costa Rica Yellow Honey Kinka Bear Lot 20-02;94;Medium Light;52;70;110.23;Taiwan;Costa Rica
 Ethiopia Guji Shakiso Dambi Udo Honey;94;Light;62;80;155.56;Taiwan;Ethiopia
@@ -1055,7 +1055,7 @@ Panama Finca Los Lajones Natural;94;Light;60;82;8.52;USA;Panama
 SL28;94;Medium Light;56;76;14.55;USA;Unknown
 Bourbon Pointu Natural;94;Medium Light;58;76;25.2;USA;Unknown
 Ethiopia Guji Hambela Buku Abel Slow Dry Natural 2400m;94;Light;64;82;181.82;Taiwan;Ethiopia
-Yemen Al Mashtal Al Burhani;94;Medium Light;58;78;22.0;USA;Yemen
+Yemen Al Mashtal Al Burhani;94;Medium Light;58;78;22;USA;Yemen
 Flight Seasonal Espresso;95;Medium Light;58;74;5.58;USA;Unknown
 Panama Boquete Flor De Mariposa Geisha Espresso;96;Medium Light;54;76;220.46;Taiwan;Panama
 Guji Ethiopia Washed;94;Light;62;84;5.29;USA;Ethiopia
@@ -1069,21 +1069,21 @@ Colombia Pink Bourbon Finca El Chaparote;94;Light;64;82;8.79;USA;Colombia
 Ethiopia Neja Fadil;94;Medium Light;58;78;5.88;USA;Ethiopia
 Peru Buena Vista Valerio Almanza Ccahua;94;Medium Light;60;78;11.9;USA;Peru
 Panama Finca Santa Teresa Lot 9;94;Medium Light;60;78;5.88;USA;Panama
-Guatemala Cobán Chicoj Cooperative Red Honey Fair Trade;94;Medium Light;58;78;160.0;Taiwan;Guatemala
+Guatemala Cobán Chicoj Cooperative Red Honey Fair Trade;94;Medium Light;58;78;160;Taiwan;Guatemala
 Ethiopia Halo Hartume Daniel Mijane;94;Medium Light;58;78;5.59;USA;Ethiopia
-Colombia Cauca El Paraiso;96;Light;85;105;1.0;Japan;Colombia
-Taiwan Songyue Geisha;94;Light;79;92;4.0;Japan;Taiwan
+Colombia Cauca El Paraiso;96;Light;85;105;1;Japan;Colombia
+Taiwan Songyue Geisha;94;Light;79;92;4;Japan;Taiwan
 Kenya Nyeri;94;Medium Light;60;78;288.89;Taiwan;Kenya
 Kenya Kirinyaga Baragwi Karumandi AA;94;Medium Light;54;74;4.98;USA;Kenya
-Harimau Tiger Sumatra;94;Medium Light;54;74;5.0;USA;Indonesia
+Harimau Tiger Sumatra;94;Medium Light;54;74;5;USA;Indonesia
 Ethiopia Sidamo Washed;95;Medium Light;58;78;163.88;Taiwan;Ethiopia
 Ethiopia Guji Uraga Washed;95;Medium Light;60;78;111.01;Taiwan;Ethiopia
-Indonesia Golden Sumatra TP Espresso;96;Medium;44;62;225.0;Taiwan;Indonesia
+Indonesia Golden Sumatra TP Espresso;96;Medium;44;62;225;Taiwan;Indonesia
 Kenya Gachatha;95;Medium Light;54;72;6.61;USA;Kenya
 Ethiopia Suke Quto Single-Origin Espresso;94;Medium Light;52;72;5.59;USA;Ethiopia
 Ethiopia Gera Limu;94;Medium Light;58;80;5.59;USA;Ethiopia
-Panama Pacamara Natural;94;Medium Light;52;70;25.0;Canada;Panama
-Ka’u Pink Honey;94;Light;64;84;22.0;USA;USA
+Panama Pacamara Natural;94;Medium Light;52;70;25;Canada;Panama
+Ka’u Pink Honey;94;Light;64;84;22;USA;USA
 Kona Maragogype Pink Honey;94;Light;64;86;26.41;USA;USA
 RD1 Espresso Blend;95;Medium Light;54;72;132.28;Taiwan;Indonesia
 Bull Espresso Blend;95;Medium Light;56;76;99.12;Taiwan;Kenya
@@ -1106,11 +1106,11 @@ Ethiopia Natural Hambela Wate;95;Medium Light;58;76;136.68;Taiwan;Ethiopia
 Kinini Village Rwanda;94;Medium Light;58;76;5.88;USA;Rwanda
 Ethiopia Natural Guji Uraga G1 Lot 20-05;94;Medium Light;58;78;165.34;Taiwan;Ethiopia
 Kenya Nyeri Muchoki Estate AA;94;Light;62;80;154.32;Taiwan;Kenya
-Fruity Espresso Blend;95;Medium Light;56;74;59.0;China;Kenya
-Ethiopia Yirgacheffe Cleopatra Natural;94;Medium Light;56;76;300.0;Taiwan;Ethiopia
+Fruity Espresso Blend;95;Medium Light;56;74;59;China;Kenya
+Ethiopia Yirgacheffe Cleopatra Natural;94;Medium Light;56;76;300;Taiwan;Ethiopia
 Ethiopia Yirgacheffe Dumerso G1 Natural;94;Medium Light;57;73;5.57;USA;Ethiopia
 Guatemala Santa Felisa Solar Eclipse Gesha Natural;94;Light;64;80;546.74;Taiwan;Guatemala
-Coral;94;Medium Light;58;78;4.0;Peru;Peru
+Coral;94;Medium Light;58;78;4;Peru;Peru
 Ethiopia Guji Goro Muda Washed G1;95;Light;64;82;198.41;Taiwan;Ethiopia
 Ethiopian Guji Ana Sora Alcoholic Natural G1;94;Medium Light;60;80;132.28;Taiwan;Ethiopia
 Panama Hacienda La Esmeralda Gesha;96;Medium Light;58;78;24.69;USA;Panama
@@ -1122,10 +1122,10 @@ Ethiopia Grade 1 Chelchele;94;Light;62;80;6.47;USA;Ethiopia
 Ethiopia Natural Yirgacheffe Gr.1 Cleopatra;95;Medium;47;73;485.01;Taiwan;Ethiopia
 Taiwan Alishan Zhou-Zhu-Yuan Farm Estate Reserve Washed;94;Medium;46;64;485.01;Taiwan;Taiwan
 Ethiopia Keramo Zero Oxygen Natural;94;Medium Light;60;78;24.25;USA;Ethiopia
-Panama Elida ASD Natural;94;Light;62;80;40.0;USA;Panama
+Panama Elida ASD Natural;94;Light;62;80;40;USA;Panama
 Peru Yanesha Geisha;94;Medium Light;61;79;0.44;Taiwan;Peru
 Ethiopia Guji Chembi;95;Medium Light;58;76;198.24;Taiwan;Ethiopia
-Kenya Nyeri;94;Medium Light;57;77;200.0;Taiwan;Kenya
+Kenya Nyeri;94;Medium Light;57;77;200;Taiwan;Kenya
 Kona Red Bourbon Anaerobic Washed Uluwehi Farm;95;Medium Light;58;74;26.41;USA;USA
 Wush Wush;95;Light;60;82;6.17;USA;Ethiopia
 Honey Typica Anaerobic;95;Medium Light;56;74;16.53;USA;Unknown
@@ -1136,18 +1136,18 @@ Panama Finca Minerva-Mirage Pacamara BOP PAC04;95;Medium Light;46;76;529.1;Taiwa
 Tanzania Shimiligwanda;94;Light;62;80;5.28;USA;Tanzania
 Ethiopia Natural Guji Blue-Donkey 2020;95;Medium Light;59;77;143.3;Taiwan;Ethiopia
 Kenya Washed Peaberry Rnyeusi;94;Medium Light;52;74;143.3;Taiwan;Kenya
-Ethiopia COE 2nd place Washed Sidamo Rumudamo;94;Medium Light;60;78;1750.0;Taiwan;Ethiopia
+Ethiopia COE 2nd place Washed Sidamo Rumudamo;94;Medium Light;60;78;1750;Taiwan;Ethiopia
 Ethiopia Yirgacheffe Natural Haru Suke G1;94;Medium Light;60;80;136.68;Taiwan;Ethiopia
 Finca Sophia Gesha Washed;98;Medium Light;58;76;44.09;USA;Panama
 Colombia Granja La Esperanza Java Anaerobic;95;Medium Light;53;73;49.97;USA;Colombia
 Shantawene Ethiopia Daya Bensa Natural;94;Light;62;80;5.59;USA;Ethiopia
-Kenya AA FAQ;94;Medium Light;60;77;165.0;Taiwan;Kenya
+Kenya AA FAQ;94;Medium Light;60;77;165;Taiwan;Kenya
 Ardent Ethiopia Natural;97;Medium Light;57;77;15.43;USA;Ethiopia
 Kona Mocca®;96;Medium Light;52;70;33.05;USA;USA
 Holiday Coffee;94;Medium Light;54;74;17.61;USA;Unknown
 Ethiopia Dur Feres Natural;94;Medium Light;60;78;5.58;USA;Ethiopia
 Kenya AA Ares Phoenix Special;96;Medium;44;60;396.83;Taiwan;Kenya
-GW01 Finca Sophia Olympus Geisha;98;Medium Light;58;76;25.0;Taiwan;Panama
+GW01 Finca Sophia Olympus Geisha;98;Medium Light;58;76;25;Taiwan;Panama
 La Esperanza Colombian Natural X.O.;94;Medium Light;54;70;4.98;USA;Colombia
 Taiwan Geisha Honey;94;Light;62;80;57.28;USA;Taiwan
 Camilina Geisha;95;Medium Light;60;78;49.97;USA;Panama
@@ -1170,14 +1170,14 @@ San Diego Natural;95;Medium Light;55;75;5.26;USA;Costa Rica
 Buna Boka #1;94;Medium Light;60;78;5.51;USA;Ethiopia
 El Jardin;94;Medium Light;58;74;12.35;USA;Colombia
 Kenya Wachuri;95;Medium;48;66;6.47;USA;Kenya
-Kenya Baragwi Guama AB;95;Medium Light;60;80;5.0;USA;Kenya
+Kenya Baragwi Guama AB;95;Medium Light;60;80;5;USA;Kenya
 Kenya ARES;95;Medium Light;54;74;330.43;Taiwan;Kenya
 Empress Kenya;95;Medium Light;58;74;244.44;Taiwan;Kenya
 Kenya Kiambu AB Top Lot;94;Medium Light;54;72;198.24;Taiwan;Kenya
 Kenya Kiambu Maua Lot AB;94;Medium Light;60;78;143.3;Taiwan;Kenya
 Kenya Thunguri AA;94;Medium Light;58;80;6.45;USA;Kenya
 Kenya Kirinyaga Kabare Karani AA;94;Medium Light;60;78;9.78;Canada;Kenya
-Kenya Kirinyaga Kii;94;Medium Light;57;77;250.0;Taiwan;Kenya
+Kenya Kirinyaga Kii;94;Medium Light;57;77;250;Taiwan;Kenya
 Kenya Rungeto;94;Medium Light;56;72;6.76;USA;Kenya
 Kenya AA Top Gatomboya;94;Medium Light;54;72;5.29;USA;Kenya
 Heart & Soul Espresso Blend;94;Medium;50;70;5.29;USA;Ethiopia
@@ -1189,16 +1189,16 @@ Laura’s Reserve SL34;95;Medium Light;60;78;27.76;USA;Unknown
 Ethiopia Reko Yirgacheffe;94;Medium Light;60;76;6.03;USA;Ethiopia
 Colombia Asobombo Inza;94;Light;62;84;4.7;USA;Colombia
 Ethiopia Sidamo Natural Twakok G1;94;Medium Light;52;72;239.13;Taiwan;Ethiopia
-Panama Boquete Torre Lot #1 Geisha Honey;94;Light;62;80;2500.0;Taiwan;Panama
+Panama Boquete Torre Lot #1 Geisha Honey;94;Light;62;80;2500;Taiwan;Panama
 Yellow Caturra (special lot);94;Medium Light;56;70;13.23;USA;Unknown
 Hawai’i Kilauea Volcano Yeast Fermentation Washed;96;Medium Light;58;76;26.41;USA;USA
-Kona Pink Honey Black Rock Farm;94;Medium Light;58;78;22.0;USA;USA
+Kona Pink Honey Black Rock Farm;94;Medium Light;58;78;22;USA;USA
 Ethiopia Kayon Mountain;94;Medium Light;60;78;5.86;USA;Ethiopia
 Benti Nenqa #209 Ethiopia;94;Medium Light;60;78;5.51;USA;Ethiopia
-El Salvador Santa Elena Pacamara;94;Medium Light;54;70;250.0;Taiwan;El Salvador
+El Salvador Santa Elena Pacamara;94;Medium Light;54;70;250;Taiwan;El Salvador
 Ethiopia Sheka Kawo Kamina Natural;95;Medium Light;58;72;7.33;USA;Ethiopia
 Black Swan Blend;94;Medium Light;54;70;114.64;Taiwan;Ethiopia
-Indonesia Lintong Mandheling;94;Medium Light;58;78;200.0;Taiwan;Indonesia
+Indonesia Lintong Mandheling;94;Medium Light;58;78;200;Taiwan;Indonesia
 Ethiopia Yirgacheffe Natural Farm Direct;94;Medium Light;58;76;6.47;USA;Ethiopia
 Kenya Karatina AA 2020;94;Medium Light;58;76;7.05;USA;Kenya
 Colombia San Luís Gesha;94;Medium Light;60;76;8.81;USA;Colombia
@@ -1254,7 +1254,7 @@ Ignacio Quintero Colombia;95;Medium Light;58;78;5.29;USA;Colombia
 Ka’u Giant Maragogipe;94;Medium Light;54;68;12.35;USA;USA
 Organic Ethiopia Agaro-Nano Challa;94;Medium Light;58;74;6.75;USA;Ethiopia
 Kerinci Palompek Sumatra;94;Medium Light;58;78;5.23;USA;Indonesia
-Kenya Embu Gicherori Factory AA Top;95;Medium Light;58;74;290.0;Taiwan;Kenya
+Kenya Embu Gicherori Factory AA Top;95;Medium Light;58;74;290;Taiwan;Kenya
 Colombia Finca Lord Baltimore Papayo;94;Light;62;80;7.33;USA;Colombia
 Mocha Java;96;Medium;52;68;4.26;USA;Ethiopia
 Ethiopia Shantawene Washed;96;Medium Light;60;78;6.17;USA;Ethiopia
@@ -1279,11 +1279,11 @@ Colombia Finca La Loma Microlot;94;Medium Light;58;76;4.85;USA;Colombia
 Kenya Kiambu AB Uklili 1905 Lot;94;Medium Light;58;76;132.28;Taiwan;Kenya
 Elida Natural Dragonfly Lot;95;Medium Light;54;70;5.88;USA;Panama
 Kona Laurina Pointu;94;Medium Light;56;70;25.2;USA;USA
-Dadaocheng Garden Blend Espresso;94;Medium;52;68;175.0;Taiwan;Guatemala
+Dadaocheng Garden Blend Espresso;94;Medium;52;68;175;Taiwan;Guatemala
 Ethiopia Dimtu;95;Medium Light;58;82;6.17;USA;Ethiopia
 Ethiopia Sidama Anaerobic;94;Medium Light;58;78;5.81;USA;Ethiopia
 Kenya Kiri Peaberry;94;Medium Light;56;74;5.59;USA;Kenya
-Ethiopia Violent Andromeda Natural;94;Medium;48;66;300.0;Taiwan;Ethiopia
+Ethiopia Violent Andromeda Natural;94;Medium;48;66;300;Taiwan;Ethiopia
 Kenya Nyeri Yerihar AA Lot 1901 Espresso;95;Medium Light;52;78;143.3;Taiwan;Kenya
 Costa Rica Aris Red Honey Lot 1901 Espresso;95;Medium;50;68;88.18;Taiwan;Costa Rica
 100% Kona Bourbon Pointu Laurina;95;Medium Light;53;75;27.76;USA;USA
@@ -1291,17 +1291,17 @@ Panama Hacienda La Esmeralda Geisha Natural Special Auction ES-N-2;94;Medium Lig
 El Salvador Finca El Cerro Natural;94;Medium Light;58;78;6.76;USA;El Salvador
 Halo Hartume Espresso;94;Medium Light;57;77;5.26;USA;Ethiopia
 Giusto Organic Espresso Blend;94;Medium;48;60;4.19;USA;Unknown
-Berg Wu Championship Selection Yirgacheffe G1 Natural Lot 19/01;95;Medium Light;60;78;275.0;Taiwan;Ethiopia
-Ethiopia Mulegeta Sintayehu Washed;94;Medium Light;59;77;500.0;Taiwan;Ethiopia
+Berg Wu Championship Selection Yirgacheffe G1 Natural Lot 19/01;95;Medium Light;60;78;275;Taiwan;Ethiopia
+Ethiopia Mulegeta Sintayehu Washed;94;Medium Light;59;77;500;Taiwan;Ethiopia
 Ecuador Eugenioides Natural Finca Perla Negra;94;Medium Light;55;73;10.29;USA;Ecuador
 Panama Esmeralda Geisha Natural;96;Medium Light;56;74;17.59;USA;Panama
 Ethiopia Suke Quto Honey;95;Medium Light;52;70;5.81;USA;Ethiopia
-Kenya FSC AB;94;Medium;50;67;1.0;Taiwan;Kenya
-Ceri Ceri Meriah Coffee;94;Medium Light;54;72;60.0;Indonesia;Indonesia
-Alamendah Patuha Coffee;94;Medium;50;66;60.0;Indonesia;Indonesia
-Holiday Blend;94;Medium Light;54;74;8.0;China;Ethiopia
+Kenya FSC AB;94;Medium;50;67;1;Taiwan;Kenya
+Ceri Ceri Meriah Coffee;94;Medium Light;54;72;60;Indonesia;Indonesia
+Alamendah Patuha Coffee;94;Medium;50;66;60;Indonesia;Indonesia
+Holiday Blend;94;Medium Light;54;74;8;China;Ethiopia
 2019 Celebration;94;Medium;47;67;5.51;USA;Guatemala
-Kenya Kiandu Peaberry;95;Medium Light;56;74;285.0;Taiwan;Kenya
+Kenya Kiandu Peaberry;95;Medium Light;56;74;285;Taiwan;Kenya
 Sumatra Raja Harimau Lintong Espresso;96;Medium;44;61;121.25;Taiwan;Indonesia
 Panama Esmeralda Geisha Portón Oro Yeast;94;Medium Light;59;77;41.12;USA;Panama
 Kenya Kiambu Peaberry Uklili 1904 Lot;94;Medium;50;68;132.28;Taiwan;Kenya
@@ -1309,9 +1309,9 @@ Kenya Kiambu AB Uklili 1903 Lot;94;Medium Light;52;70;132.28;Taiwan;Kenya
 Ethiopia Natural Yirgacheffe Blue Donkey Lot #2;94;Medium Light;56;78;132.28;Taiwan;Ethiopia
 Ethiopia Nansebo Worka;95;Medium Light;56;74;6.17;USA;Ethiopia
 Panama Elida Geisha Natural 1029;97;Medium Light;54;74;555.56;USA;Panama
-Port of Mokha Yemen JSP;97;Medium;44;58;60.0;China;Yemen
+Port of Mokha Yemen JSP;97;Medium;44;58;60;China;Yemen
 Panama Elida Natural Catuai;95;Medium Light;58;78;6.45;USA;Panama
-Cate Natural G5;95;Medium Light;52;70;100.0;Taiwan;Ethiopia
+Cate Natural G5;95;Medium Light;52;70;100;Taiwan;Ethiopia
 Harimau Tiger Sumatra;96;Medium Light;52;70;5.06;USA;Indonesia
 Gachami Kenya;94;Medium Light;56;72;5.64;USA;Kenya
 Ethiopia Natural “Phoenix”;95;Medium;44;60;0.44;Taiwan;Ethiopia
@@ -1320,9 +1320,9 @@ Washed Geisha Hacienda La Esmeralda Jaramillo Special;97;Medium Light;56;76;110.
 Panama Perci Geisha Natural;96;Medium Light;52;72;26.46;USA;Panama
 Elida Estate Geisha Green-Tip Natural;98;Medium Light;54;78;476.19;USA;Panama
 Washed Kenya;95;Medium;47;67;244.44;Taiwan;Kenya
-Panama Hacienda La Esmeralda Super Mario Geisha;96;Medium Light;54;78;100.0;Australia;Panama
+Panama Hacienda La Esmeralda Super Mario Geisha;96;Medium Light;54;78;100;Australia;Panama
 Kenya Gakundu FCS Kamviu Wet Mill;94;Medium Light;56;78;6.17;Canada;Kenya
-Rukira Kenya;94;Medium Light;58;80;6.0;USA;Kenya
+Rukira Kenya;94;Medium Light;58;80;6;USA;Kenya
 Gesha Village Lot #85 Natural;95;Medium Light;54;72;17.61;USA;Ethiopia
 Ethiopia Natural Yirgacheffe Banko Gotiti;94;Medium Light;52;70;143.3;Taiwan;Ethiopia
 Indonesia Sumatra Gayo Espresso;94;Dark;36;44;264.56;Taiwan;Indonesia
@@ -1334,7 +1334,7 @@ Panama Finca Kalithea Natural Geisha;96;Medium Light;55;79;661.38;Taiwan;Panama
 Panama Hacienda La Esmeralda Super Mario 6 Geisha;95;Medium Light;51;71;26.46;USA;Panama
 Panama Geisha Alto Jaramillo;94;Medium Light;53;71;35.27;USA;Panama
 Colombia Laderas del Tapias Estate Natural Geisha;94;Medium Light;52;70;586.96;Taiwan;Colombia
-Gesha Village Natural Lot #19;94;Medium Light;58;80;1200.0;Taiwan;Ethiopia
+Gesha Village Natural Lot #19;94;Medium Light;58;80;1200;Taiwan;Ethiopia
 Gesha Village 1931 Lot 27;94;Medium Light;60;78;22.05;USA;Ethiopia
 Ethiopia Sidamo Gora Kone;94;Medium Light;59;72;5.59;USA;Ethiopia
 Kebele Village Espresso;94;Medium Light;52;70;5.03;USA;Ethiopia
@@ -1376,9 +1376,9 @@ Gesha Rebecca Natural;95;Medium Light;58;80;154.32;Taiwan;Ethiopia
 Café Granja La Esperanza Sudan Rume Natural;95;Medium;51;69;16.53;USA;Colombia
 Boru Batak Sumatra;94;Medium Light;53;75;5.29;Canada;Indonesia
 Sumatra Tano Batak;94;Medium Light;55;68;5.29;USA;Indonesia
-Sumatra Lintong;95;Medium;51;68;5.0;USA;Indonesia
+Sumatra Lintong;95;Medium;51;68;5;USA;Indonesia
 Ethiopia Natural Guji Hambela G1 Bishan Fugu;95;Medium Light;51;73;143.3;Taiwan;Ethiopia
-Tanzania Tarime AB;94;Medium Light;56;80;5.0;USA;Tanzania
+Tanzania Tarime AB;94;Medium Light;56;80;5;USA;Tanzania
 El Salvador Cerro Las Ranas Honey Espresso;94;Medium Light;50;74;79.37;Taiwan;El Salvador
 Panama Baru Geisha Black;94;Medium Light;52;74;485.01;Taiwan;Panama
 Flight Seasonal Espresso;94;Medium Light;54;78;5.29;USA;Ethiopia
@@ -1406,14 +1406,14 @@ Colombia Geisha;94;Medium Light;53;77;7.61;USA;Colombia
 Kenya Murunga New Gatanga FCS Mukurwe Factory AB;94;Medium Light;54;76;7.05;Taiwan;Kenya
 Ethiopia WORKA;94;Medium Light;60;80;5.29;USA;Ethiopia
 Ethiopia Banko Dhadhato Washed;94;Light;62;82;5.29;USA;Ethiopia
-Kenya Karuthi AA;95;Medium Light;56;72;6.0;USA;Kenya
+Kenya Karuthi AA;95;Medium Light;56;72;6;USA;Kenya
 Kenya Nyeri Nudurutu Factory AB;94;Medium Light;57;79;132.28;Taiwan;Kenya
 Ethiopia Kochere Washed Saona Lot;95;Medium Light;57;79;127.87;Taiwan;Ethiopia
 Ethiopia Guji Natural Dasaya;94;Medium Light;57;79;132.28;Taiwan;Ethiopia
 Holiday Sweet Blend;94;Medium Light;54;76;4.99;USA;Colombia
 Colombia El Obraje Gesha;94;Medium Light;54;74;14.11;USA;Colombia
 Flowery Nekisse;95;Medium Light;60;80;7.94;Taiwan;Ethiopia
-Baru Gesha;96;Medium Light;55;75;12.0;USA;Panama
+Baru Gesha;96;Medium Light;55;75;12;USA;Panama
 Camilina Geisha;94;Medium Light;54;78;19.84;USA;Panama
 Mama Cata Geisha Washed;94;Medium Light;56;84;15.87;USA;Panama
 Wei Rong Blend;94;Medium Light;55;72;132.28;Taiwan;Kenya
@@ -1482,7 +1482,7 @@ Karen J Red Bourbon;94;Medium Light;58;80;20.26;USA;USA
 Kenya Nyeri Gatugi Peaberry;94;Medium;45;75;5.28;USA;Kenya
 Kenya Gura AA;94;Medium Light;56;78;202.82;Taiwan;Kenya
 Sumatra Tano Batak;94;Medium Light;53;77;6.17;USA;Indonesia
-Sumatra Tano Batak;94;Medium Light;55;77;5.0;USA;Indonesia
+Sumatra Tano Batak;94;Medium Light;55;77;5;USA;Indonesia
 Yemen Port of Mokha Al-Durrar;94;Medium Light;50;76;26.9;USA;Yemen
 Finca La Maria Geisha Natural;95;Medium Light;55;79;22.49;USA;Colombia
 Ethiopia Guji Gigessa;94;Light;60;84;202.82;Taiwan;Ethiopia
@@ -1503,9 +1503,9 @@ Ethiopia Biftu Gundina Coop Espresso;94;Medium Dark;42;57;121.25;Taiwan;Ethiopia
 Ethiopia Banko Gotiti Natural;94;Light;60;88;143.3;Taiwan;Ethiopia
 Canoe Blend;94;Medium Light;56;82;4.12;USA;Indonesia
 Guatemala Retiro Natural Process;94;Medium Light;57;70;4.63;USA;Guatemala
-Kenya Gatugi AB;94;Medium Light;53;85;35.0;Taiwan;Kenya
+Kenya Gatugi AB;94;Medium Light;53;85;35;Taiwan;Kenya
 Gedeb Ethiopia;95;Medium Light;58;82;5.51;USA;Ethiopia
-Ethiopia Dry-Processed Guji Mt. Kayon;95;Medium Light;56;75;35.0;Taiwan;Ethiopia
+Ethiopia Dry-Processed Guji Mt. Kayon;95;Medium Light;56;75;35;Taiwan;Ethiopia
 Ethiopia Banko Gotiti;94;Light;65;93;4.99;USA;Ethiopia
 Panama Auromar Estate Geisha Peaberry;95;Medium Light;53;81;22.49;USA;Panama
 Panama Finca Hartmann Geisha Natural;95;Light;60;84;23.81;USA;Panama
@@ -1513,7 +1513,7 @@ Mini-Me Washed Kaffa Forest;95;Medium Dark;40;60;286.6;Taiwan;Ethiopia
 Jade Espresso;94;Medium Light;56;72;4.12;USA;Unknown
 Ulos Batak Sumatra;96;Medium Light;54;76;5.57;USA;Indonesia
 Blue Label La Esmeralda Porton Pascua Gesha;95;Medium Light;53;85;26.46;USA;Panama
-David Mburu Kenya;96;Light;58;84;6.0;USA;Kenya
+David Mburu Kenya;96;Light;58;84;6;USA;Kenya
 El Peñon Nicaragua;94;Light;61;93;5.28;USA;Nicaragua
 Kenya Chorongi Peaberry;95;Medium Light;50;76;5.88;USA;Kenya
 Kenya Riakiberu AB;95;Medium Light;55;77;5.6;USA;Kenya
@@ -1527,14 +1527,14 @@ Gikanda Kenya;96;Medium Light;55;76;5.66;USA;Kenya
 Panama Don Julian Pacamara;95;Medium Light;56;80;11.02;USA;Panama
 100% Kona Bourbon Pointu Laurina;95;Medium Light;52;76;19.82;USA;USA
 Kenya AB Muchoki;95;Medium Light;55;75;5.86;USA;Kenya
-Geisha Panama Santamaria Natural;95;Medium Light;54;78;24.0;Australia;Panama
+Geisha Panama Santamaria Natural;95;Medium Light;54;78;24;Australia;Panama
 100% Kona SL-28;97;Medium Light;56;78;33.05;USA;USA
 Kenya Kirinyaga Mukangu AB;95;Medium Light;54;76;143.3;Taiwan;Kenya
 Ethiopia Washed Yirgacheffe Adado;95;Medium Light;56;78;121.25;Taiwan;Ethiopia
 Ace Espresso;94;Medium Light;52;74;5.29;Canada;Ethiopia
 Kenya Mutungati;94;Medium Light;54;80;6.17;Canada;Kenya
 Ethiopia Gedeb Halo Beriti;94;Medium;48;70;4.85;USA;Ethiopia
-Ethiopia Sidama;94;Medium;47;72;5.0;Canada;Ethiopia
+Ethiopia Sidama;94;Medium;47;72;5;Canada;Ethiopia
 Thiriku AA Kenya;95;Medium;47;65;7.2;USA;Kenya
 Flora Blend Espresso;94;Medium Light;54;77;69.6;China;Unknown
 “Sweety” Espresso Blend;95;Medium Light;50;73;110.13;China;Ethiopia
@@ -1550,7 +1550,7 @@ Nicaragua Un Regalo de Dios Bourbon;94;Medium Light;56;81;4.99;USA;Nicaragua
 Gedeb Lot 83 Ethiopia Natural;95;Medium Light;58;82;5.57;USA;Ethiopia
 Halo Beriti Ethiopia;94;Medium Light;53;77;5.26;USA;Ethiopia
 Ethiopia Konga Sede;94;Medium Light;60;78;4.85;USA;Ethiopia
-Static Amaro Gayo Natural Ethiopia;95;Medium;45;61;5.0;USA;Ethiopia
+Static Amaro Gayo Natural Ethiopia;95;Medium;45;61;5;USA;Ethiopia
 Static Cali Classic Espresso;94;Medium Light;54;68;4.39;USA;Colombia
 Shine Day El Salvador;94;Light;61;84;217.78;Taiwan;El Salvador
 Kenya Kirinyaga Baragwi Guama AB;95;Medium Light;59;77;132.28;Taiwan;Kenya
@@ -1564,7 +1564,7 @@ Esmeralda Special Auction Washed Geisha;94;Medium Light;54;78;22.05;USA;Panama
 Gesha Village 1931, Lot 86;95;Medium Light;54;78;33.07;USA;Ethiopia
 Gesha Village Natural Oma Block Lot 72;95;Medium Light;56;77;705.48;Taiwan;Ethiopia
 Gesha Village Lot 76 Nasha Block;95;Light;64;86;32.63;Taiwan;Ethiopia
-Gesha Village Auction Lot 26 Gori Gesha Natural;95;Medium Light;54;74;30.0;Canada;Ethiopia
+Gesha Village Auction Lot 26 Gori Gesha Natural;95;Medium Light;54;74;30;Canada;Ethiopia
 Carmen Geisha El Palomar Best of Panama #4 Carlos Aguilera;96;Medium Light;54;78;22.05;USA;Panama
 Karuthi Espresso;95;Medium Light;53;77;5.57;USA;Kenya
 Chelelektu Espresso;94;Medium Light;51;73;5.07;USA;Ethiopia
@@ -1640,15 +1640,15 @@ Gichichi Peaberry Kenya;94;Medium Light;57;77;4.7;USA;Kenya
 Blade Runner Blend;95;Medium Light;56;82;6.4;Australia;Brazil
 Laura’s Reserve SL-28;96;Medium Light;56;82;19.82;USA;USA
 Panama Finca Mama Cata Microlot Tona;94;Light;58;84;6.61;USA;Panama
-Mr. David Mburu Kenya;96;Medium Light;56;78;6.0;USA;Kenya
-Meaza Ethiopia;95;Medium Light;54;74;6.0;USA;Ethiopia
+Mr. David Mburu Kenya;96;Medium Light;56;78;6;USA;Kenya
+Meaza Ethiopia;95;Medium Light;54;74;6;USA;Ethiopia
 Costa Rica Finca Chispirta;94;Medium Light;54;68;11.02;USA;Costa Rica
 Las Lajas Perla Negra Natural;94;Medium Light;52;70;6.47;USA;Costa Rica
 Ninety Plus Silvia Solkiln N2;96;Medium;45;58;1152.42;Taiwan;Panama
 P.R.O. Special Blended Coffee;94;Medium Dark;44;54;509.25;Taiwan;Costa Rica
 Ethiopia Natural Yirgacheffe Gedeb G1 Lot 118;94;Medium Light;58;80;4.63;Taiwan;Ethiopia
 Kenya Karatu;94;Medium Light;57;78;5.29;USA;Kenya
-Ethiopia Gedeb Natural;94;Medium Light;58;77;5.0;USA;Ethiopia
+Ethiopia Gedeb Natural;94;Medium Light;58;77;5;USA;Ethiopia
 Sumatra Tano Batak;95;Medium;51;62;4.48;USA;Indonesia
 Kenya Gathiruini;95;Medium Light;56;78;7.35;USA;Kenya
 Kenya Thageini;96;Light;58;84;6.17;USA;Kenya
@@ -1665,20 +1665,20 @@ Ethiopia Yirgacheffe Chelelektu;94;Light;69;84;2557.32;Taiwan;Ethiopia
 Passport Collection Kenya Ichamara;94;Medium Light;54;73;4.7;USA;Kenya
 Ethiopia Limu Natural No. 701;94;Medium Light;57;80;4.85;USA;Ethiopia
 Ethiopia Yirgacheffe YCFCU Idido;94;Medium Light;52;76;255.51;Taiwan;Ethiopia
-Sumatra Black Panther;94;Medium;50;69;4.0;South Korea;Indonesia
+Sumatra Black Panther;94;Medium;50;69;4;South Korea;Indonesia
 Sumatra Lintong Mutu Batak;94;Medium Light;54;74;4.26;USA;Indonesia
 Amaro Gayo Natural Ethiopia;94;Light;58;90;5.28;USA;Ethiopia
 Ardi Ethiopia Natural;94;Medium Light;54;79;4.7;USA;Ethiopia
 Deri Kochoha Espresso;96;Medium Light;56;78;4.94;USA;Ethiopia
 Camilina Geisha Auromar Natural;95;Light;58;84;21.83;USA;Panama
-ManLao River Ethiopia Yirgacheffe Dry Process Gedeb Asasa;94;Medium Light;54;78;50.0;China;Ethiopia
+ManLao River Ethiopia Yirgacheffe Dry Process Gedeb Asasa;94;Medium Light;54;78;50;China;Ethiopia
 Deri Kochoha Ethiopia;94;Medium Light;56;80;4.94;USA;Ethiopia
 Cachajinas Guatemala Huehuetenango;94;Medium Light;56;80;5.28;USA;Guatemala
 Ethiopia Yirgacheffe Goro;94;Medium Light;54;76;6.4;Australia;Ethiopia
 El Obraje Geisha;95;Medium Light;50;73;9.41;USA;Colombia
 Ethiopia Yirgacheffe Reko;96;Medium Light;54;76;5.73;USA;Ethiopia
 Costa Rica Alberto Guardia Bourbon Natural;95;Medium Light;60;80;6.03;USA;Costa Rica
-Colombia San Adolfo;94;Light;65;81;5.0;USA;Colombia
+Colombia San Adolfo;94;Light;65;81;5;USA;Colombia
 Laura’s Reserve SL-28;94;Medium Light;58;83;17.61;USA;USA
 Brazil Estancia Telese;94;Light;66;83;3.89;USA;Brazil
 Brazil Fazenda Passeio Natural;94;Medium Light;55;81;3.08;USA;Brazil
@@ -1693,7 +1693,7 @@ Competition Blend;94;Light;62;84;4.99;USA;Ethiopia
 Bean Brain Reserve Suke Quto Ethiopia Sidamo Espresso;94;Medium Light;60;80;5.59;USA;Ethiopia
 Hambela Ethiopia;96;Medium Light;57;82;5.13;USA;Ethiopia
 Drima Zede Ethiopia;94;Medium Light;57;82;39.65;China;Ethiopia
-Ecuador Juan Peña;94;Light;64;78;8.0;USA;Ecuador
+Ecuador Juan Peña;94;Light;64;78;8;USA;Ecuador
 Kenya Othaya Peaberry;94;Medium Light;55;80;4.34;USA;Kenya
 Organic Ethiopia Aramo Natural;94;Light;64;84;5.22;USA;Ethiopia
 Love Shack (Kenya);94;Medium Light;54;78;5.14;USA;Kenya
@@ -1714,7 +1714,7 @@ Panama La Esmeralda Geisha Bosque Natural;97;Medium Light;59;82;27.34;USA;Panama
 Harfusa Ethiopia Yirgacheffe Fair Trade Organic;95;Medium Light;54;76;5.23;USA;Ethiopia
 ASOPCAFA Colombia;94;Medium Light;60;77;4.37;USA;Colombia
 Guatemala San Sebastian Natural;95;Medium Light;59;78;5.8;USA;Guatemala
-Ethiopia Hachira Natural Espresso;94;Light;62;87;9.0;USA;Ethiopia
+Ethiopia Hachira Natural Espresso;94;Light;62;87;9;USA;Ethiopia
 Ethiopia Kochere Espresso Profile;94;Medium Light;50;79;5.62;USA;Ethiopia
 Kenya Nyeri Kiama FCS Ichuga Factory Peaberry;95;Medium;49;68;5.73;USA;Kenya
 Kenya Nyeri Thageini;94;Medium Light;54;68;5.29;USA;Kenya
@@ -1723,21 +1723,21 @@ Ethiopia Natural Yirgacheffe Phoenix Special “King Solomon”;94;Medium;48;60;
 Fully Washed Ethiopia Phoenix Special “Dr. Evil”;94;Medium;45;57;308.64;Taiwan;Ethiopia
 Sulawesi “Tanah Kebangkitan” Phoenix Special Espresso;94;Medium Dark;44;56;308.64;Taiwan;Indonesia
 Kenya AA Lot-122 “Excalibur” Espresso;94;Medium Dark;45;54;396.83;Taiwan;Kenya
-Panama Elida Natural Lot #13;95;Light;63;86;8.0;USA;Panama
+Panama Elida Natural Lot #13;95;Light;63;86;8;USA;Panama
 Emma’s Jo: The Leam Hammer Competition Espresso;95;Medium Light;55;75;5.29;USA;Unknown
-Costa Rica Sumava Natural Lot;94;Light;61;85;8.0;USA;Costa Rica
+Costa Rica Sumava Natural Lot;94;Light;61;85;8;USA;Costa Rica
 Panama Auromar Geisha Natural Peaberry;96;Medium Light;53;70;17.64;USA;Panama
 El Burro Geisha Tachi Natural;95;Medium Light;55;75;13.8;USA;Panama
 Holiday Blend;95;Medium Light;54;77;4.48;USA;Unknown
 Holiday Blend;95;Light;66;82;11.02;Taiwan;Unknown
-Nicaragua Pacamara Los Congos Lot #8;95;Light;68;82;8.0;USA;Nicaragua
+Nicaragua Pacamara Los Congos Lot #8;95;Light;68;82;8;USA;Nicaragua
 Panama Boquete Kotowa Gesha Natural;94;Light;64;84;19.84;USA;Panama
 Holiday Blend;94;Medium Light;59;70;5.56;USA;Ethiopia
 Panama Finca Auromar Camilina Natural;94;Light;66;90;22.05;USA;Panama
 El Aguila SL-28 El Salvador;94;Medium Light;58;77;5.51;USA;El Salvador
 Ethiopia Sidama Special Lot Natural;95;Light;63;86;5.29;USA;Ethiopia
 Panama Finca Deborah Caturra Natural;94;Light;65;88;8.82;USA;Panama
-Nekisse Red N2 Level 39;96;Medium Light;63;74;188.0;China;Ethiopia
+Nekisse Red N2 Level 39;96;Medium Light;63;74;188;China;Ethiopia
 Panama La Esmeralda Bosque Lot 1 Gesha;94;Light;64;85;21.16;USA;Panama
 Finca La Mula Panama Geisha Natural;95;Medium Light;52;73;22.02;USA;Panama
 La Lagunita El Salvador;94;Medium Light;59;79;5.51;USA;El Salvador
@@ -1752,7 +1752,7 @@ Ethiopia Nigusse Lemma;94;Medium Light;58;76;4.98;USA;Ethiopia
 Panama Don Pepe Estate Geisha Single-Origin Espresso;96;Medium;48;59;5.73;USA;Panama
 Ichamama Kenya;94;Medium Light;56;74;4.73;USA;Kenya
 Las Flores Espresso;95;Medium Light;57;78;4.64;USA;Costa Rica
-El Salvador Finca Medrano Pacamara Nohemi Ventura;94;Light;62;87;8.0;South Korea;El Salvador
+El Salvador Finca Medrano Pacamara Nohemi Ventura;94;Light;62;87;8;South Korea;El Salvador
 Ethiopia Jimma Agaro;95;Light;66;87;5.88;USA;Ethiopia
 Rwanda Silverback Espresso;95;Medium Dark;43;52;0.22;Taiwan;Rwanda
 Ecuador “Mama Kilya” Espresso;94;Medium Dark;44;50;0.44;Taiwan;Ecuador
@@ -1799,7 +1799,7 @@ Rum-Barrel Conditioned Ethiopia Gelena Abaya;94;Light;65;85;5.29;USA;Ethiopia
 Finca La Mula Panama Geisha;96;Medium Light;57;81;21.72;USA;Panama
 Milepost Kenya Nyeri Ruarai;94;Medium Light;58;81;5.29;USA;Kenya
 Kenya Thiriku;95;Medium Light;56;77;5.14;USA;Kenya
-Ari-Ari Seuri-Seuri;94;Medium Light;56;72;6.0;South Korea;Unknown
+Ari-Ari Seuri-Seuri;94;Medium Light;56;72;6;South Korea;Unknown
 Jazz Apricot (Espresso);94;Medium;50;62;110.23;Taiwan;Unknown
 Ethiopia Biloya Organic;95;Medium Light;55;75;4.92;USA;Ethiopia
 Organic Ethiopian Worka Special Prep;94;Light;60;83;5.22;USA;Ethiopia
@@ -1811,7 +1811,7 @@ Kenya AA;95;Medium Light;56;79;220.46;Taiwan;Kenya
 Ethiopia Suke Quto Organic;95;Medium;52;65;4.39;USA;Ethiopia
 Espresso Blend Spring 15;94;Medium;48;54;127.87;Taiwan;Unknown
 Esmeralda Leon Natural Geisha;96;Light;71;89;19.84;USA;Unknown
-Shilcho Ethiopia, Red Cherry Initiative;94;Medium;53;66;5.0;USA;Ethiopia
+Shilcho Ethiopia, Red Cherry Initiative;94;Medium;53;66;5;USA;Ethiopia
 Lomi Tasha Worka, Ethiopia;95;Light;64;85;7.35;USA;Ethiopia
 Laura’s Reserve SL-28;94;Medium;53;68;15.85;USA;Unknown
 Semeon Abay Ethiopia;95;Light;66;84;121.4;USA;Ethiopia
@@ -1819,7 +1819,7 @@ Kenya Nyeri Rukira AB;95;Medium;49;66;4.41;Taiwan;Kenya
 Auromar Camilina Geisha;95;Light;62;88;17.64;USA;Unknown
 Holiday Blend;95;Medium Light;59;78;5.07;USA;Unknown
 Ethiopia Wenago Natural;95;Medium Light;55;73;5.29;USA;Ethiopia
-Panama Geisha Holiday Blend;95;Light;67;88;16.0;USA;Panama
+Panama Geisha Holiday Blend;95;Light;67;88;16;USA;Panama
 Panama Esmeralda Especial Geisha Bosque 2;94;Medium;50;65;27.34;USA;Panama
 Gratitude Special Blend;94;Medium;46;64;3.67;USA;Unknown
 Nicaragua Pacamara Reserve Los Congos;94;Medium Light;57;73;5.29;USA;Nicaragua
@@ -1850,8 +1850,8 @@ Ethiopia Chele’ Lektu;94;Medium;52;68;4.12;USA;Ethiopia
 Ethiopia Boke Natural Grade 1 Espresso;94;Medium Light;56;66;5.14;USA;Ethiopia
 Kochoha Espresso;94;Medium Light;56;72;4.37;USA;Unknown
 Kenya Nyeri Giakanja;95;Medium;50;55;6.17;USA;Kenya
-Perci N2 L39;94;Medium Light;55;78;188.0;China;Unknown
-Yirgacheffe Aricha Natural G1;94;Medium Light;59;74;10.0;South Korea;Ethiopia
+Perci N2 L39;94;Medium Light;55;78;188;China;Unknown
+Yirgacheffe Aricha Natural G1;94;Medium Light;59;74;10;South Korea;Ethiopia
 Sumatra Tano Batak;94;Medium;54;66;5.14;USA;Indonesia
 Panama Ironman Camilina Geisha;97;Medium Light;58;80;22.02;USA;Panama
 Panama Estate Reserve: Elida Estate Natural;94;Medium Light;58;80;5.29;USA;Panama
@@ -1859,12 +1859,12 @@ Byron’s Maracaturra Natural Nicaragua;94;Light;64;80;4.85;USA;Nicaragua
 Panama Chiriqui Finca Santa Teresa Geisha;94;Light;72;87;7.94;USA;Panama
 Costa Rica Cerro San Luis Natural;94;Medium Light;57;74;5.26;USA;Costa Rica
 Panama La Berlina Typica Natural;94;Medium Light;56;76;211.64;Taiwan;Panama
-Costa Rica Flor de Santos Bourbon Natural;94;Medium Light;57;79;89.0;China;Costa Rica
-Panama NPGE Perci N2;94;Medium Light;59;77;25.0;South Korea;Panama
+Costa Rica Flor de Santos Bourbon Natural;94;Medium Light;57;79;89;China;Costa Rica
+Panama NPGE Perci N2;94;Medium Light;59;77;25;South Korea;Panama
 El Salvador Cerro Las Ranas Espresso;94;Medium Dark;44;50;4.69;USA;El Salvador
 Kii Kenya;94;Medium Light;58;73;5.86;USA;Kenya
-Ethiopia Boke Washed Grade 1;95;Medium Light;57;82;5.0;USA;Ethiopia
-Ethiopia Semeon Abay N3;94;Light;62;87;95.0;South Korea;Ethiopia
+Ethiopia Boke Washed Grade 1;95;Medium Light;57;82;5;USA;Ethiopia
+Ethiopia Semeon Abay N3;94;Light;62;87;95;South Korea;Ethiopia
 Kenya Kahiriga;94;Medium Light;56;74;5.44;USA;Kenya
 Elida Estate Panama;95;Medium Light;57;74;7.64;USA;Panama
 Kenya Baragwi Kagongo Peaberry;94;Medium;49;71;4.26;USA;Kenya
@@ -1874,13 +1874,13 @@ Kenya Kikai;95;Medium Light;57;77;5.22;USA;Kenya
 Ethiopia Yirgacheffe Kore Kochore;94;Medium Light;59;76;4.26;USA;Ethiopia
 SO Espresso Brazil Fazenda Rainha Natural;94;Medium;54;66;3.81;USA;Brazil
 Papua New Guinea Kunjin;94;Light;64;82;4.85;USA;Papua New Guinea
-Ethiopia Sidama Ardi;94;Medium;52;61;5.0;USA;Ethiopia
+Ethiopia Sidama Ardi;94;Medium;52;61;5;USA;Ethiopia
 Celinga Ethiopia Espresso;94;Medium Light;57;73;4.85;USA;Ethiopia
 Celinga Ethiopia;95;Medium Light;57;73;4.85;USA;Ethiopia
 Ethiopia Danch Meng;94;Medium Light;57;77;5.73;USA;Ethiopia
-Ethiopia Moplaco Yirgacheffe;94;Medium Light;58;80;450.0;Taiwan;Ethiopia
+Ethiopia Moplaco Yirgacheffe;94;Medium Light;58;80;450;Taiwan;Ethiopia
 Ethiopia Yirga Natural Bedhatu;94;Light;65;90;5.07;Taiwan;Ethiopia
-Kenya Nyeri Tambaya AA;95;Medium Light;55;72;450.0;Taiwan;Kenya
+Kenya Nyeri Tambaya AA;95;Medium Light;55;72;450;Taiwan;Kenya
 Guji Zone Ethiopia;95;Medium Light;59;77;5.29;USA;Ethiopia
 Colombia Cerro Azul Geisha;95;Medium;52;63;13.33;USA;Colombia
 Colombia Cerro Azul Enano;94;Medium Light;60;79;4.51;USA;Colombia
@@ -1895,8 +1895,8 @@ Kenya Makwa AB;96;Medium;54;67;4.98;USA;Kenya
 Kenya Kabare AB;95;Light;64;84;4.26;USA;Kenya
 El Salvador Santa Elena Honey Pacamara;94;Medium Light;55;68;5.59;USA;El Salvador
 Kenya Makwa AB;95;Medium;51;59;4.7;USA;Kenya
-Ethiopia Yirgacheffe ECX Auction Lot;94;Medium Light;56;71;5.0;USA;Ethiopia
-Ethiopia Ninety Plus Pheribo N2;95;Light;66;85;15.0;South Korea;Ethiopia
+Ethiopia Yirgacheffe ECX Auction Lot;94;Medium Light;56;71;5;USA;Ethiopia
+Ethiopia Ninety Plus Pheribo N2;95;Light;66;85;15;South Korea;Ethiopia
 Ethiopia Washed Sidama Shilcho Coop G1;94;Light;64;80;143.3;Taiwan;Ethiopia
 Ethiopia Washed Yirgacheffe “Mini-Me” 2014;96;Medium;50;65;220.46;Taiwan;Ethiopia
 Panama Los Lajones Bambu Geisha;96;Medium Light;57;78;26.46;USA;Panama
@@ -1905,7 +1905,7 @@ Panama Gesha Perci Red;96;Light;66;88;21.3;USA;Panama
 Organic Ethiopian Yirgacheffe Idido;94;Medium Light;59;74;4.63;USA;Ethiopia
 Holiday Blend;95;Medium Light;56;78;3.75;USA;Unknown
 Panama Finca La Mula Geisha Natural;94;Medium Light;60;75;22.02;USA;Panama
-Kenya Gichuka AA;94;Medium Light;56;72;5.0;USA;Kenya
+Kenya Gichuka AA;94;Medium Light;56;72;5;USA;Kenya
 Ethiopia Washed Yirgacheffe Mini-Me;94;Medium;50;62;220.46;Taiwan;Ethiopia
 Ethiopia Kelenso Mokanisa;94;Medium Light;59;73;4.11;USA;Ethiopia
 Ganesha Espresso;94;Medium;49;59;3.08;USA;Unknown
@@ -1915,15 +1915,15 @@ Ethiopia Yirgacheffe Kochere Aricha;94;Medium Light;53;79;3.56;USA;Ethiopia
 Ethiopia Banko Natural;94;Medium Light;58;75;4.79;USA;Ethiopia
 Makwa Kenya Nyeri;94;Medium Light;57;71;5.29;USA;Kenya
 Panama Los Lajones Bambu Geisha Natural;94;Medium Light;58;75;26.43;USA;Panama
-Juliette Red Ninety Plus Gesha Estate Panama;94;Medium Light;53;72;35.0;South Korea;Panama
+Juliette Red Ninety Plus Gesha Estate Panama;94;Medium Light;53;72;35;South Korea;Panama
 100% Kona High Mountain Io Extra Fancy;94;Medium Light;55;75;15.85;USA;USA
 Sumatra Blue Batak Peaberry;94;Medium;53;68;4.85;USA;Indonesia
 Panama Gesha Ninety Plus Perci Red;95;Medium;52;68;19.11;USA;Panama
 El Agulia Pacamara El Salvador;94;Light;63;82;5.11;USA;El Salvador
-Mexico Finca Kassandra Pacamara;94;Medium Light;55;68;5.0;USA;Mexico
+Mexico Finca Kassandra Pacamara;94;Medium Light;55;68;5;USA;Mexico
 Panama Finca Santa Teresa Honey Geisha;94;Medium;55;66;1234.57;Taiwan;Panama
 Batista Natural Geisha;94;Light;65;84;837.74;Taiwan;Unknown
-Perci N2 Ninety Plus Gesha Estates Panama;94;Medium Light;58;71;35.0;South Korea;Panama
+Perci N2 Ninety Plus Gesha Estates Panama;94;Medium Light;58;71;35;South Korea;Panama
 Ethiopia Sidama Deri Kochoha;94;Medium;52;66;3.97;USA;Ethiopia
 Kenya Kirinyaga Karimikui Peaberry;95;Medium;52;66;4.26;USA;Kenya
 Ethiopia Yirgacheffe;94;Light;59;84;4.41;USA;Ethiopia
@@ -1942,17 +1942,17 @@ Deri Kochoha Ethiopian Sidamo;94;Medium Light;57;72;4.41;USA;Ethiopia
 Kemgin Ethiopia;94;Medium;51;62;4.3;USA;Ethiopia
 Lintong Sumatra Dolok Sangul;94;Medium Light;54;77;4.85;USA;Indonesia
 Tano Batak Sumatra;94;Medium Light;54;73;4.11;USA;Indonesia
-Momma Bear Espresso;94;Medium Light;56;76;5.0;USA;Unknown
+Momma Bear Espresso;94;Medium Light;56;76;5;USA;Unknown
 Ethiopia Yirgacheffe Kochere G1;94;Medium Light;58;75;4.85;USA;Ethiopia
 Maragogype Honey Process;94;Medium Light;51;75;20.16;USA;USA
 Ulos Batak Sumatra Peaberry;95;Medium;52;68;4.41;USA;Indonesia
 Ninety Plus Kemgin W2 Ethiopia;94;Medium;49;65;286.6;Taiwan;Ethiopia
 Ethiopia Dry Process Saris Abaya;94;Medium Light;59;72;198.41;Taiwan;Ethiopia
 Kenya AB Top Lot Single-Origin Espresso;94;Medium Dark;46;53;286.6;Taiwan;Kenya
-Geisha S94;94;Light;61;93;288.0;China;Panama
+Geisha S94;94;Light;61;93;288;China;Panama
 Sumatra Mandheling Wahana;94;Medium Light;59;76;3.97;USA;Indonesia
-Geisha P.E.B. (RFA);94;Medium Light;56;83;588.0;China;Panama
-Ethiopia Dry Process Grade 1 Aricha Yirgacheffe;95;Medium Light;56;81;500.0;Taiwan;Ethiopia
+Geisha P.E.B. (RFA);94;Medium Light;56;83;588;China;Panama
+Ethiopia Dry Process Grade 1 Aricha Yirgacheffe;95;Medium Light;56;81;500;Taiwan;Ethiopia
 Ethiopia Yirgacheffe ECX;96;Light;64;83;4.56;USA;Ethiopia
 Tchembe Single Origin Espresso;94;Medium;53;66;5.5;USA;Unknown
 Ethiopia Ninety Plus Kemgin;96;Medium Light;52;73;5.29;USA;Ethiopia
@@ -1969,7 +1969,7 @@ Harfusa Ethiopia Yirgacheffe Fair Trade Organic;94;Medium Light;56;73;4.41;USA;E
 Kenya Mukurweini Kamuchuni AA;94;Medium;53;63;5.29;USA;Kenya
 Sweet Breeze;94;Medium Light;58;76;220.46;Taiwan;Unknown
 Washed Yirgacheffe;94;Light;61;81;176.37;Taiwan;Ethiopia
-Ninety Plus Sillvia SK L95;94;Medium Light;55;75;40.0;China;Unknown
+Ninety Plus Sillvia SK L95;94;Medium Light;55;75;40;China;Unknown
 Mexico Santa Teresa BCS 02: Cabernet Franc Barrel;95;Medium Light;58;79;5.88;USA;Mexico
 Yirgacheffe Blue Nile;94;Medium Light;54;73;3.86;USA;Ethiopia
 Yirgacheffe Belekatu;95;Medium Light;52;70;4.41;USA;Ethiopia
@@ -1991,7 +1991,7 @@ Lycello Panama Gesha;95;Medium Light;56;71;10.02;USA;Panama
 Karatu Kenya AA;94;Medium;53;67;4.99;USA;Kenya
 Kenya Mamuto;96;Medium Light;61;76;7.35;USA;Kenya
 Kenya Thunguri – Top Auction Lot;94;Medium;49;62;5.57;USA;Kenya
-Kenya Nyeri AA Tegu;95;Medium Light;56;76;450.0;Taiwan;Kenya
+Kenya Nyeri AA Tegu;95;Medium Light;56;76;450;Taiwan;Kenya
 Panama Gesha Estates: Perci Estate 29 Natural;95;Medium Light;60;78;19.84;USA;Panama
 Ethiopia Hachira;94;Medium Light;58;74;11.02;USA;Ethiopia
 Goldilocks Espresso;94;Medium Light;56;75;4.41;USA;Unknown
@@ -2066,7 +2066,7 @@ Ethiopia Nekisse Espresso;94;Medium;48;56;11.16;USA;Ethiopia
 Panama Mama Cata Geisha;95;Medium;47;62;15.5;USA;Panama
 El Salvador Pacamara Finca Los Alpes The Bank;94;Medium Light;58;78;4.39;USA;El Salvador
 Honduras Fernandez Farm;94;Medium Light;54;73;7.94;USA;Honduras
-Resiprocate Verita Espresso;94;Medium Dark;40;49;2.0;Canada;Unknown
+Resiprocate Verita Espresso;94;Medium Dark;40;49;2;Canada;Unknown
 Ka’u Coffee Natural Dried;95;Medium;46;67;11.9;USA;USA
 Stars of Italy Espresso;96;Medium;46;60;264.55;Taiwan;Unknown
 Guatemala Hunapu Antigua Bourbon;97;Medium;48;58;4.41;USA;Guatemala
@@ -2180,7 +2180,7 @@ Kenya AA Nyeri Fine Cup;94;Dark;35;43;205.91;USA;Kenya
 El Salvador Montecarlos Tablon Crater;94;Medium Light;55;72;47.23;USA;El Salvador
 El Salvador Montecarlos Peaberry;94;Medium;53;64;249.35;USA;El Salvador
 Nicaragua Maragogipe Organic;94;Medium Dark;46;54;134.6;USA;Nicaragua
-Kenya AA, 2003 Crop;95;Medium;49;66;10.0;USA;Kenya
+Kenya AA, 2003 Crop;95;Medium;49;66;10;USA;Kenya
 Kenya AA;94;Medium;43;76;180.28;USA;Kenya
 Kenya;94;Medium Dark;42;47;106.72;USA;Kenya
 Fair Trade Organic Guatemala;94;Very Dark;0;66;184.51;USA;Guatemala
