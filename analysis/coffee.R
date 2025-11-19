@@ -76,3 +76,10 @@ ggplot(df_clean, aes(x = origin_country, y = price_per_100g)) +
        x = "Country",
        y = "Price") +
   theme_minimal()
+
+#correlation analysis
+cor(coffee$total_score, coffee$agtron_roast, use = "complete.obs")
+cor(coffee$total_score, coffee$agtron_ground, use = "complete.obs")
+cor(coffee$total_score, coffee$price_per_100g, use = "complete.obs")
+cor(coffee$agtron_roast, coffee$price_per_100g, use = "complete.obs")
+cor(coffee$agtron_ground, coffee$price_per_100g, use = "complete.obs")
