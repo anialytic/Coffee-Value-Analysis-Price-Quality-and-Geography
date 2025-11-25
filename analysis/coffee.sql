@@ -78,3 +78,11 @@ from coffee
 where roast_level = 'Medium Light' and origin_country is not null
 group by origin_country
 order by avg_price desc
+
+--segmentation by roast_level
+select roast_level
+	, count(*) as amount
+from coffee 
+group by roast_level
+order by amount desc
+
