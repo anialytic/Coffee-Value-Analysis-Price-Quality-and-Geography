@@ -86,3 +86,20 @@ from coffee
 group by roast_level
 order by amount desc
 
+--segmentation by price
+select price_per_100g 
+	, count(*) as amount
+from coffee
+group by price_per_100g
+order by price_per_100g desc
+
+select
+    case
+        when price_per_100g < 15 then 'budget'
+        when price_per_100g between 15 and 99 then 'mid'
+        else 'premium'
+    end as price_segment,
+    count(*) as total
+from coffee
+group by price_segment;
+
