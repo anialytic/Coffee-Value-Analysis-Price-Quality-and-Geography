@@ -101,5 +101,11 @@ select
     end as price_segment,
     count(*) as total
 from coffee
-group by price_segment;
+group by price_segment
 
+-- total_score range
+select
+    coffee_name,
+    total_score,
+    rank() over (order by total_score desc) as rn
+from coffee
