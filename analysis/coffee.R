@@ -60,7 +60,13 @@ summary(anova_model)
 # Perform Tukey HSD post-hoc test (if ANOVA is significant)
 TukeyHSD(anova_model)
 
-
+#filter signficant results
+tukey <- TukeyHSD(anova_model)
+tukey_table <- as.data.frame(tukey$origin_country)
+tukey_table$comparison <- rownames(tukey_table)
+significant <- tukey_table[tukey_table$`p adj` < 0.05, ]
+significant
+plot(TukeyHSD(anova_model), las=2)
 
 # t-test, p-value. на 95% на 6.63 доларів дорожча з Гватемали, Ефіопії
 coffee %>%
