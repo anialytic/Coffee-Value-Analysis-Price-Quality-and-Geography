@@ -65,7 +65,8 @@ tukey <- TukeyHSD(anova_model)
 tukey_table <- as.data.frame(tukey$origin_country)
 tukey_table$comparison <- rownames(tukey_table)
 significant <- tukey_table[tukey_table$`p adj` < 0.05, ]
-significant
+significant_sorted <- significant[order(significant$`p adj`), ]
+significant_sorted
 plot(TukeyHSD(anova_model), las=2)
 
 # t-test, p-value. на 95% на 6.63 доларів дорожча з Гватемали, Ефіопії
@@ -97,3 +98,14 @@ cor(coffee$total_score, coffee$agtron_ground, use = "complete.obs")
 cor(coffee$total_score, coffee$price_per_100g, use = "complete.obs")
 cor(coffee$agtron_roast, coffee$price_per_100g, use = "complete.obs")
 cor(coffee$agtron_ground, coffee$price_per_100g, use = "complete.obs")
+
+#try one more time
+numeric_coffee <- coffee[sapply(coffee, is.numeric)]
+cor_matrix <- round(cor(numeric_coffee), 2)
+cor_matrix
+
+heatmap(cor_matrix, 
+        symm = TRUE,      
+        col = colorRampPalette(c("pink", "white", "lightblue"))(20),
+        margins = c(6,6),
+        main = "Correlation between all variables")
