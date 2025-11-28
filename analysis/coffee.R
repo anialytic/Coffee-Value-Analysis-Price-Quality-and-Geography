@@ -28,10 +28,10 @@ ggplot(country_counts, aes(x = reorder(Var1, -Freq), y = Freq)) +
   labs(x = "Країна", y = "Кількість", title = "Кількість кави по країнах") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
-# гіпотеза: найдорожчі види кави пов'язані з регіонами: Гватемала та Ефіопія
-# Н0: ціни в Гватемалі/Ефіопії не відрізняються від інших країн
-# Н1: ціни там вищі
-# Результат: Н0, Н1 частково підтверджується, але найдорощі лоти часто з Панами,Еквадору
+
+# Н0: середня ціна в Гватемалі та Ефіопії не відрізняються від інших країн
+# Н1: середня ціна в Гватемалі Та Ефіопії вищі
+# Результат: Н0
 
 # середнє, медіана, максимум. найвища середня у Тайвані, 
 coffee %>%
@@ -42,7 +42,7 @@ coffee %>%
     max_price = max(price_per_100g, na.rm = TRUE),
     n = n()
   ) %>%
-  arrange(desc(median_price))
+  arrange(desc(mean_price))
 
 # Коробкова візуалізація за Гватемалою, Ефіопією, Тайванем
 #у Гватемали та Ефіопії є екстримальні значення(ексклюзивні лоти), які тягнуть вгору
@@ -53,6 +53,14 @@ coffee %>%
   labs(title = "Coffee prices in Guatemala and Ethiopia",
        x = "Country of Origin",
        y = "Price per 100g")
+
+#try one more time (difference is significant, price depends on origin_country)
+anova_model <- aov(price_per_100g ~ origin_country, data = coffee)
+summary(anova_model)
+# Perform Tukey HSD post-hoc test (if ANOVA is significant)
+TukeyHSD(anova_model)
+
+
 
 # t-test, p-value. на 95% на 6.63 доларів дорожча з Гватемали, Ефіопії
 coffee %>%
