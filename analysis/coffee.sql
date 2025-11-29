@@ -11,7 +11,7 @@ LIMIT 10
 -- Fixing 
 UPDATE coffee
 SET origin_country = 'USA'
-WHERE origin_country = 'USa';
+WHERE origin_country = 'USA';
 
 --average score by countries
 select avg(total_score) as avg_score,
@@ -109,3 +109,27 @@ select
     total_score,
     rank() over (order by total_score desc) as rn
 from coffee
+
+---Best roaster location
+SELECT
+    roaster_country,
+    AVG(agtron_roast) AS avg_roast,
+    COUNT(*) AS sample
+FROM coffee
+WHERE roaster_country <> origin_country
+GROUP BY roaster_country
+HAVING COUNT(*) > 5
+ORDER BY avg_roast DESC
+
+
+-- Fixing 
+
+SELECT column_name
+FROM information_schema.columns
+WHERE table_name = 'coffee'
+
+ALTER TABLE coffee
+RENAME COLUMN "roaster_country	" TO roaster_country
+
+ALTER TABLE coffee
+RENAME COLUMN "agtron_roast	" TO agtron_roast
