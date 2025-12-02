@@ -141,3 +141,10 @@ FROM coffee
 GROUP BY origin_country, roaster_country
 ORDER BY pairs DESC
 
+-- roast_level & score relation
+SELECT roast_level,
+       AVG(total_score) AS avg_score,
+       COUNT(*) AS samples
+FROM coffee
+GROUP BY roast_level
+ORDER BY avg_score DESC
