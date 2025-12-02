@@ -147,4 +147,12 @@ SELECT roast_level,
        COUNT(*) AS samples
 FROM coffee
 GROUP BY roast_level
+
+-- domestic roasting score
+SELECT origin_country,
+	COUNT(*) AS domestic_count, 
+	AVG(total_score) AS avg_score
+FROM coffee
+WHERE origin_country = roaster_country
+GROUP BY origin_country
 ORDER BY avg_score DESC
