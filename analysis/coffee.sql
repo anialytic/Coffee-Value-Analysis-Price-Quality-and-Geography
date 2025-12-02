@@ -133,3 +133,11 @@ RENAME COLUMN "roaster_country	" TO roaster_country
 
 ALTER TABLE coffee
 RENAME COLUMN "agtron_roast	" TO agtron_roast
+
+
+-- the most popular relations
+SELECT origin_country, roaster_country, COUNT(*) AS pairs
+FROM coffee
+GROUP BY origin_country, roaster_country
+ORDER BY pairs DESC
+
