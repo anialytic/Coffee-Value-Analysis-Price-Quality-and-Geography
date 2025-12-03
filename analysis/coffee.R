@@ -109,3 +109,8 @@ heatmap(cor_matrix,
         col = colorRampPalette(c("pink", "white", "lightblue"))(20),
         margins = c(6,6),
         main = "Correlation between all variables")
+
+#best price/score relation
+coffee |> 
+  mutate(value_index = `total_score` / `price_per_100g`) |>
+  arrange(desc(value_index))
