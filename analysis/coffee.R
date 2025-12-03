@@ -114,3 +114,9 @@ heatmap(cor_matrix,
 coffee |> 
   mutate(value_index = `total_score` / `price_per_100g`) |>
   arrange(desc(value_index))
+
+#heatmap(country/roast_level)
+ggplot(coffee, aes(`origin_country`, `roast_level`)) +
+  geom_jitter(alpha = 0.5) +
+  geom_violin(fill="lightblue") +
+  theme(axis.text.x = element_text(angle=45, hjust=1))
