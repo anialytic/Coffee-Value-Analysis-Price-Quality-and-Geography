@@ -120,3 +120,6 @@ ggplot(coffee, aes(`origin_country`, `roast_level`)) +
   geom_jitter(alpha = 0.5) +
   geom_violin(fill="lightblue") +
   theme(axis.text.x = element_text(angle=45, hjust=1))
+
+
+cor.test(coffee$agtron_roast, coffee$total_score, method = "spearman")
