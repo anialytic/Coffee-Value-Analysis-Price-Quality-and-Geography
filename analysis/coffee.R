@@ -135,3 +135,10 @@ ggplot(coffee, aes(agtron_roast, agtron_ground)) +
   geom_bin2d() +
   scale_fill_gradient() +
   theme_minimal()
+
+#K-means
+country_profile <- coffee %>%
+  group_by(roaster_country) %>%
+  summarize(across(c(total_score, agtron_ground, agtron_roast, price_per_100g), mean))
+
+kmeans(country_profile[,-1], centers=3)
