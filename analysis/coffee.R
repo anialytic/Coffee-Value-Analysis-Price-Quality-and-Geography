@@ -129,3 +129,9 @@ model <- lm(price_per_100g ~ total_score + agtron_ground + agtron_roast, data=co
 coffee$pred_price <- predict(model)
 coffee$price_anomaly <- coffee$price_per_100g - coffee$pred_price
 head(coffee[order(abs(coffee$price_anomaly), decreasing=TRUE), ])
+
+#heatmap
+ggplot(coffee, aes(agtron_roast, agtron_ground)) +
+  geom_bin2d() +
+  scale_fill_gradient() +
+  theme_minimal()
