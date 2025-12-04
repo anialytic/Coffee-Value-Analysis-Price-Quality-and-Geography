@@ -123,3 +123,9 @@ ggplot(coffee, aes(`origin_country`, `roast_level`)) +
 
 
 cor.test(coffee$agtron_roast, coffee$total_score, method = "spearman")
+
+#anomaly
+model <- lm(price_per_100g ~ total_score + agtron_ground + agtron_roast, data=coffee)
+coffee$pred_price <- predict(model)
+coffee$price_anomaly <- coffee$price_per_100g - coffee$pred_price
+head(coffee[order(abs(coffee$price_anomaly), decreasing=TRUE), ])
