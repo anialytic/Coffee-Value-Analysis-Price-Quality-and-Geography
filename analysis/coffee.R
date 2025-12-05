@@ -112,19 +112,19 @@ heatmap(cor_matrix,
 
 #best price/score relation
 coffee |> 
-  mutate(value_index = `total_score` / `price_per_100g`) |>
-  arrange(desc(value_index))
+  mutate(value_index = `total_score` / `price_per_100g`) |>  #add new column
+  arrange(desc(value_index)) #sort 
 
 #heatmap(country/roast_level)
 ggplot(coffee, aes(`origin_country`, `roast_level`)) +
-  geom_jitter(alpha = 0.5) +
-  geom_violin(fill="lightblue") +
-  theme(axis.text.x = element_text(angle=45, hjust=1))
+  geom_jitter(alpha = 0.5) + #напівпрозорі точки 
+  geom_violin(fill="lightblue") + #violin-plot
+  theme(axis.text.x = element_text(angle=45, hjust=1)) #rotate text
 
-
+#no correlation
 cor.test(coffee$agtron_roast, coffee$total_score, method = "spearman")
 
-#anomaly
+#anomaly overestimated&underestimated price
 model <- lm(price_per_100g ~ total_score + agtron_ground + agtron_roast, data=coffee)
 coffee$pred_price <- predict(model)
 coffee$price_anomaly <- coffee$price_per_100g - coffee$pred_price
@@ -140,5 +140,4 @@ ggplot(coffee, aes(agtron_roast, agtron_ground)) +
 country_profile <- coffee %>%
   group_by(roaster_country) %>%
   summarize(across(c(total_score, agtron_ground, agtron_roast, price_per_100g), mean))
-
 kmeans(country_profile[,-1], centers=3)
