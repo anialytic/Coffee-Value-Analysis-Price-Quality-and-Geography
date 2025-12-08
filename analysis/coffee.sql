@@ -156,3 +156,10 @@ FROM coffee
 WHERE origin_country = roaster_country
 GROUP BY origin_country
 ORDER BY avg_score DESC
+
+-- origin_countries with grand_total
+SELECT origin_country, 
+	SUM (price_per_100g) as total
+FROM coffee
+GROUP BY ROLLUP (origin_country)
+ORDER BY total DESC
