@@ -1,44 +1,17 @@
-Row Labels;Average of price_per_100g
-Taiwan;403.745
-Brazil;369.367
-Ecuador;275.1303333
-Panama;204.3123902
-Peru;168.382
-Guatemala;132.0111765
-Yemen;129.9917391
-Ethiopia;99.54454688
-Mexico;91.21545455
-China;88.11
-Kenya;78.54959877
-Honduras;69.665
-Colombia;68.52080745
-Costa Rica;66.60783133
-Indonesia;57.69261905
-Rwanda;52.7335
-USA;52.26065421
-Papua New Guinea;44.47833333
-Tanzania;43.77833333
-El Salvador;31.60759259
-Nicaragua;25.85736842
-Democratic Republic of the Congo;5.578333333
-Burundi;5.525
-Bolivia;4.19
-Grand Total;100.5039162
-;
-;
-;
-Row Labels;Average of price_per_100g
-Japan;533.0744444
-Taiwan;278.2530579
-China;176.097931
-United Kingdom;66.67
-Indonesia;60
-Australia;34.2
-USA;25.06641472
-South Korea;23.08333333
-Mexico;15.43
-Canada;7.657894737
-Colombia;7.35
-Kenya;6.91
-Guatemala;5.29
-Grand Total;99.0980778
+Row Labels;Count of coffee_name
+Ethiopia;640
+Kenya;324
+Colombia;322
+Panama;205
+USA;107
+Guatemala;85
+Indonesia;84
+Costa Rica;83
+El Salvador;54
+Ecuador;30
+Yemen;23
+Peru;20
+Rwanda;20
+Nicaragua;19
+Tanzania;18
+Grand Total;2034
